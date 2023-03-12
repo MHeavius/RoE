@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage
+name="Rules of Engagement Weapons"
+corepackage="false"
+modversion="1"
+gameversion="0.21.6.0"
+altnames="RoEW">
+  <Item file="%ModDir%/Items/Headgears.xml"/>
+  <Item file="%ModDir%/Items/Uniform.xml"/>
+  <Item file="%ModDir%/Items/Armor.xml"/>
+  <Item file="%ModDir%/Items/Equipment.xml"/>
+  <Item file="%ModDir%/Items/Weapons.xml"/>
+  <Particles file="%ModDir%/Particles/Particles.xml"/>
+</contentpackage>

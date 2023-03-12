@@ -1,0 +1,110 @@
+<Items>
+  <Item name="Tactical Flashlight" identifier="RoEFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <Price baseprice="200" minavailable="2">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="3" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="aluminium" />
+      <Item identifier="lightcomponent" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="aluminium" amount="2" />
+      <RequiredItem identifier="lightcomponent" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items/RoEFlashlight.png" sourcerect="0,0,126,33" depth="0.55" origin="0.5,0.5" />
+    <Body width="126" height="33" density="15" />    
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect" >  
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.2">
+        <RequiredItem items="mobilebattery" type="Contained" />
+      </StatusEffect>    
+      <LightComponent LightColor="255,230,180,180" Flicker="0.02" range="1200" powerconsumption="10" allowingameediting="false" >
+        <LightTexture texture="%ModDir%/Items/RoEFlashlightLight.png" sourcerect="0,0,1024,1024" origin="0.008,0.485" size="1,1" />
+        <IsActive targetcontaineditem="true" condition="gt 1.0"/>
+      </LightComponent>
+    </Holdable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+        <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+        <TickBox text="Tactical Flashlight">
+          <StatusEffect type="OnUse" target="This" IsOn="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+        </TickBox>
+    </CustomInterface>
+    <AiTarget sightrange="3000" />
+  </Item>
+
+  <Item name="Tactical Laser" identifier="RoELaser" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <Price baseprice="200" minavailable="2">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="3" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="aluminium" />
+      <Item identifier="lightcomponent" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="aluminium" amount="2" />
+      <RequiredItem identifier="lightcomponent" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items/RoELaser.png" sourcerect="0,0,106,65" depth="0.55" origin="0.5,0.5" />
+    <Body width="106" height="65" density="15" />  
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">  
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.2">
+        <RequiredItem items="mobilebattery" type="Contained" />
+      </StatusEffect>    
+      <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="1000" powerconsumption="8" allowingameediting="true" >
+        <LightTexture texture="%ModDir%/Items/RoELaserLight.png" origin="0.0,0.5" size="1,0.05" depth="0.6" />
+        <IsActive targetcontaineditem="true" condition="gt 1.0"/>
+      </LightComponent>
+    </Holdable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>  
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+        <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+        <TickBox text="Tactical Laser">
+          <StatusEffect type="OnUse" target="This" IsOn="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+        </TickBox>
+    </CustomInterface>
+    <AiTarget sightrange="1500" />
+  </Item>
+
+  <Item name="Visor" identifier="RoEVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+    <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
+    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="armcab"/>
+    <Price baseprice="50" />
+    <Deconstruct time="5">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="plastic" amount="2" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items/RoEVisor.png" sourcerect="0,0,59,116" depth="0.6" origin="0.5,0.5" />
+    <Body width="59" height="116" density="25" />
+      <Holdable slots="Any,RightHand,LeftHand" holdangle="10" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+</Items>

@@ -1,0 +1,77 @@
+﻿<items>
+
+<!-- ARMOR -->
+  <Item name="Tactical Armor" identifier="RoEArmor" category="Equipment" tags="mediumitem,clothing" scale="0.4" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+    <PreferredContainer primary="armcab" secondary="secarmcab"/>
+     <Price baseprice="250" />
+    <Deconstruct time="25">
+      <Item identifier="organicfiber" amount="2" />
+      <Item identifier="titaniumaluminiumalloy" amount="1" />
+      <Item identifier="carbon" amount="1" />
+      <Item identifier="plastic" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="organicfiber" amount="4" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="1" />
+      <RequiredItem identifier="carbon" amount="1" />
+      <RequiredItem identifier="plastic" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/items/RoEArmorIcon.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/items/RoEArmor.png" sourcerect="0,0,101,118" depth="0.6" origin="0.5,0.5" />
+    <Body width="101" height="118" density="20" />
+    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+	<damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.5" />
+	<damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
+	<damagemodifier afflictionidentifiers="gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.18" damagesound="LimbArmor" deflectprojectiles="true" />
+	<damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+	<damagemodifier afflictionidentifiers="progressivestun,incrementalstun" armorsector="0.0,360.0" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true" />
+	<damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+	<damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite texture="%ModDir%/items/RoEArmor.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.7" inheritorigin="false" origin="0.5,0.7" inheritsourcerect="false" canbehiddenbyotherwearables="true" sourcerect="0,0,101,118" />
+      <StatValue stattype="WalkingSpeed" value="-0.15" />
+    </Wearable>
+   <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-30,-30" handle2="0,-30" holdangle="35" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+  </Item>
+  
+<!-- BAG -->
+  <Item name="Tactical Vest" identifier="RoEVest" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.4" fireproof="true" impactsoundtag="impact_soft" >
+    <PreferredContainer primary="engcab"/>
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05"/>
+    <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <Deconstruct time="15">
+      <Item identifier="organicfiber" amount="2" />
+      <Item identifier="plastic" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="organicfiber" amount="4" />
+      <RequiredItem identifier="plastic" amount="1" />
+    </Fabricate>
+    <Price baseprice="180" />
+    <InventoryIcon texture="%ModDir%/items/RoEVestIcon.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/items/RoEVest.png" sourcerect="0,0,113,175" depth="0.6" />
+    <Body width="113" height="175" density="20" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite texture="%ModDir%/items/RoEVest.png" sourcerect="0,0,113,175" scale="0.7" origin="0.5,0.45" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" >
+        <LightComponent range="30.0" lightcolor="0,255,0,180" powerconsumption="0" IsOn="true" allowingameediting="false">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/pointlight_falloff.png" origin="0.3,0.3" size="1.0,1.0" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="true" />
+        </LightComponent>
+        <LightComponent range="30.0" lightcolor="255,0,0,180" powerconsumption="0" IsOn="true" allowingameediting="false">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/pointlight_falloff.png" origin="0.8,0.3" size="1.0,1.0" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="true" />
+        </LightComponent>
+      </sprite>
+      <SkillModifier skillidentifier="weapons" skillvalue="15" />
+      <StatValue stattype="RangedAttackSpeed" value="0.25" />
+      <StatValue stattype="TurretAttackSpeed" value="0.25" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="8" depth="0.5" >
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier" />
+    </ItemContainer>
+  </Item>
+</items>

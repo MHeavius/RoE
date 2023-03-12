@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <Sleeve556
+  lifetime="30" 
+  startdelaymin="0" 
+  startdelaymax="0" 
+  angularvelocitymin="90" 
+  angularvelocitymax="120" 
+  startrotationmin="0" 
+  startrotationmax="360" 
+  rotatetodirection="false" 
+  drag="1" 
+  waterdrag="1" 
+  velocitychange="0,-15" 
+  collisionradius="1" 
+  usecollision="true" 
+  deleteoncollision="False" 
+  friction="0.1" restitution="0.4" 
+  startsizemin=".15,.15" 
+  startsizemax=".15,.15" 
+  growtime="0.0" 
+  startcolor="255,255,255,255" 
+  endcolor="255,255,255,0" 
+  drawtarget="Both" 
+  drawontop="True"
+  blendstate="AlphaBlend"
+  animduration="1" 
+  loopanim="false" 
+  lifetimemin="15" 
+  sizechangemin="0,0" 
+  sizechangemax="0,0" 
+  priority="10">
+    <sprite name="Sleeve556" texture="%ModDir%/Items/RoE556Sleeve.png" sourcerect="0,0,11,f" origin="0.5,0.5" depth="0.565" />
+  </Sleeve556>
+</prefabs>
