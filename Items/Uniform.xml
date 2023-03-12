@@ -1,5 +1,5 @@
 ﻿<Items>
- <Item name="Tactical Uniform" identifier="RoEUniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+ <Item name="Tactical Uniform Combat" identifier="RoEUniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
     <Price baseprice="150" minavailable="1">
@@ -12,7 +12,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/RoEUniformIcon.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="219,11,127,98" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniform.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
@@ -53,7 +53,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/RoEUniformIconMed.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="345,11,127,98" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniformMed.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
@@ -93,7 +93,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/RoEUniformIconUt.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="473,11,127,98" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniformUt.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
