@@ -36,11 +36,11 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/RoEBalaclavaIcon.png" depth="0.6" sourcerect="11,5,118,111" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Equipment.png" depth="0.6" sourcerect="0,0,97,102" origin="0.5,0.5" />
     <Body width="118" height="111" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/RoEBalaclava.png" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" sourcerect="17,11,128,128" origin="0.4,0.4" />
-      <sprite texture="%ModDir%/Items/RoEBalaclava.png" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="30,156,128,128" origin="0.4,1.1" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,97,102" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,97,102" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -59,11 +59,11 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/RoEBalaclavaIcon.png" depth="0.6" sourcerect="11,5,118,111" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Equipment.png" depth="0.6" sourcerect="11,5,118,111" origin="0.5,0.5" />
     <Body width="118" height="111" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/RoEBalaclavaShades.png" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" sourcerect="17,11,128,128" origin="0.4,0.4" />
-      <sprite texture="%ModDir%/Items/RoEBalaclavaShades.png" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="30,156,128,128" origin="0.4,1.1" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="97,7,97,102" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="97,7,97,102" origin="0.4,0.4" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -82,11 +82,11 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/RoEBalaclavaIcon.png" depth="0.6" sourcerect="11,5,118,111" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/RoEBalaclavaIcon.png" sourcerect="11,5,118,111" origin="0.5,0.5" depth="0.6" />
     <Body width="118" height="111" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/RoEBalaclavaTactical.png" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" sourcerect="17,11,128,128" origin="0.4,0.4" />
-      <sprite texture="%ModDir%/Items/RoEBalaclavaTactical.png" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="30,156,128,128" origin="0.4,1.1" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="17,11,128,128" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="30,156,128,128" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -108,8 +108,8 @@
     <Sprite texture="%ModDir%/Items/RoEBalaclavaIcon.png" depth="0.6" sourcerect="11,5,118,111" origin="0.5,0.5" />
     <Body width="118" height="111" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/RoEBalaclavaGoggles.png" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" sourcerect="17,11,128,128" origin="0.4,0.4" />
-      <sprite texture="%ModDir%/Items/RoEBalaclavaGoggles.png" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="30,156,128,128" origin="0.4,1.1" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="17,11,128,128" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="17,11,128,128" origin="0.4,0.4" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
 
