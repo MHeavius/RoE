@@ -21,9 +21,9 @@
     <Body width="290" height="72" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="55,5" handle1="-55,-25" handle2="50,18" holdangle="-28">
         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-            <StatusEffect type="OnUse" target="NearbyCharacters">        
-                <Sound file="%ModDir%/Sounds/EmptyGun.ogg" type="OnUse" range="300" />
-            </StatusEffect>
+        <StatusEffect type="OnUse" target="NearbyCharacters">        
+            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" type="OnUse" range="300" />
+        </StatusEffect>
     </Holdable>
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
         <sprite texture="%ModDir%/Items/RoEACREmpty.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="0,0,290,72" limb="Torso" scale="0.4" origin="0.5,0.8" />
@@ -33,12 +33,12 @@
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <!-- <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.5,1.5" colormultiplier="255,200,200,30" /> -->
         <ParticleEmitter particle="weldsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="255,255,255,50" />
-            <Sound file="%ModDir%/Sounds/ACRShot (1).ogg" type="OnUse" range="1000" selectionmode="Random" />
-            <Sound file="%ModDir%/Sounds/ACRShot (2).ogg" type="OnUse" range="1000" />
-            <Sound file="%ModDir%/Sounds/ACRShot (3).ogg" type="OnUse" range="1000" />
-            <Sound file="%ModDir%/Sounds/ACRShot (4).ogg" type="OnUse" range="1000" />
-            <Sound file="%ModDir%/Sounds/ACRShot (5).ogg" type="OnUse" range="1000" />
-            <Sound file="%ModDir%/Sounds/ACRShot (6).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (1).ogg" type="OnUse" range="1000" selectionmode="Random" />
+        <Sound file="%ModDir%/Sounds/ACRShot (2).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (3).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (4).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (5).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (6).ogg" type="OnUse" range="1000" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Sleeve556" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="3" scalemax="3" />
             <Explosion range="100" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" colormultiplier="255,200,200,30" />
@@ -53,20 +53,20 @@
         <Containable items="RoE556Mag" itempos="-7.2,-10" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SlotIcon slotindex="2" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
-            <SubContainer capacity="1" maxstacksize="1" >
+        <SubContainer capacity="1" maxstacksize="1" >
             <Containable items="RoEFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
-            </SubContainer>
+        </SubContainer>
     </ItemContainer>
-      <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="1000" powerconsumption="0" allowingameediting="true" >
+    <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="1000" powerconsumption="0" allowingameediting="true" >
         <LightTexture texture="%ModDir%/Items/RoELaserLight.png" origin="-0.015,0.5" size="1,0.05" depth="0.6" />  
-      </LightComponent>
-      <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
         <GuiFrame relativesize="0.12,0.12" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
-      <TickBox text="Tactical Laser">
-        <StatusEffect Type="OnUse" Target="This"  IsOn="True" Stackable="False" />
-        <StatusEffect Type="OnSecondaryUse" Target="This" IsOn="False" Stackable="False" />
-      </TickBox>
-      </CustomInterface>
+        <TickBox text="Tactical Laser">
+            <StatusEffect Type="OnUse" Target="This"  IsOn="True" Stackable="False" />
+            <StatusEffect Type="OnSecondaryUse" Target="This" IsOn="False" Stackable="False" />
+        </TickBox>
+    </CustomInterface>
   <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
     <Quality>
         <QualityStat stattype="FirepowerMultiplier" value="0.1" />
@@ -123,13 +123,13 @@
             <Affliction identifier="stun" strength="0.25" />
             <Affliction identifier="stun" strength="0.5" probability="0.2" />
             </Attack>
-                <StatusEffect type="OnImpact" target="UseTarget">
+            <StatusEffect type="OnImpact" target="UseTarget">
                 <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="2,2" colormultiplier="255,200,200,50" />
-                </StatusEffect>
+            </StatusEffect>
         <StatusEffect type="OnImpact" target="UseTarget">
-        <Conditional entitytype="eq Structure" />
-        <Conditional hastag="eq door" />
-        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+            <Conditional entitytype="eq Structure" />
+            <Conditional hastag="eq door" />
+            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
         </StatusEffect>
     </Projectile>  
 </Item>
