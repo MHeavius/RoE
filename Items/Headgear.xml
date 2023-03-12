@@ -148,12 +148,12 @@
     <Price baseprice="180" />
     <Deconstruct time="3">
       <Item identifier="RoEHelmet" />
-      <Item identifier="flashlight" />
+      <Item identifier="RoEFlashlight" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="RoEHelmet" amount="1" />
-      <RequiredItem identifier="flashlight" amount="1" />
+      <RequiredItem identifier="RoEFlashlight" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/RoEHelmetFlashlight.png" sourcerect="0,0,128,94" depth="0.6" origin="0.5,0.5" />
     <Body width="128" height="94" density="25" />
@@ -162,7 +162,7 @@
         <LightComponent range="350.0" lightcolor="250,224,165,255" powerconsumption="0" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
           </StatusEffect>
-          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.049, 0.495" size="1.0,1.0" />
+          <LightTexture texture="%ModDir%/Items/RoEFlashlight.png" origin="0.049, 0.495" size="1.0,1.0" />
         </LightComponent>
       </sprite>
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
