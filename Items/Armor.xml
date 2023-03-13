@@ -1,7 +1,7 @@
 ﻿<items>
 
 <!-- ARMOR -->
-  <Item name="Tactical Armor" identifier="RoEArmor" category="Equipment" tags="mediumitem,clothing" scale="0.4" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="roeArmorPlate" category="Equipment" tags="mediumitem,clothing" scale="0.4" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
      <Price baseprice="250" />
     <Deconstruct time="25">
@@ -35,7 +35,7 @@
   </Item>
   
 <!-- BAG -->
-  <Item name="Tactical Vest" identifier="RoEVest" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.4" fireproof="true" impactsoundtag="impact_soft" >
+  <Item name="" identifier="roeVest" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.4" fireproof="true" impactsoundtag="impact_soft" >
     <PreferredContainer primary="engcab"/>
     <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
