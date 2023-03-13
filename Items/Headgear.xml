@@ -121,7 +121,7 @@
 
 <!-- HELMETS -->
 
-  <Item name="Tactical Helmet" identifier="roeHelmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFast" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
@@ -147,7 +147,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Flashlight" identifier="roeHelmetFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
@@ -179,7 +179,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Visor" identifier="roeHelmetVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
@@ -206,7 +206,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Diving Mask" identifier="roeHelmetDiving" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastDiving" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>

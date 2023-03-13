@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Russian" nowhitespace="false" translatedname="Русский">
 
+<!-- Weapons.xml -->
+
+<entityname.roeACR>ACR</entityname.roeACR>
+<entitydescription.roeACR></entitydescription.roeACR>
+
+<entityname.roe556Mag>PMAG 5.56</entityname.roe556Mag>
+<entitydescription.roe556Mag></entitydescription.roe556Mag>
+
+<entityname.roeBullet556>5.56x45 мм</entityname.roeBullet556>
+<entitydescription.roeBullet556></entitydescription.roeBullet556>
+
 <!-- Headgear.xml -->
 
 <entityname.roeHeadphones>Активные Наушники</entityname.roeHeadphones>
@@ -17,6 +28,22 @@
 
 <entityname.roeBalaclavaShades>Балаклава с Тёмными Очками</entityname.roeBalaclavaShades>
 <entitydescription.roeBalaclavaShades></entitydescription.roeBalaclavaShades>
+
+    <!-- helmet -->
+
+<entityname.roeHelmetFast>Шлем FAST</entityname.roeHelmetFast>
+<entitydescription.roeHelmetFast></entitydescription.roeHelmetFast>
+
+<entityname.roeHelmetFastFlashlight>Шлем FAST "Часовой"</entityname.roeHelmetFastFlashlight>
+<entitydescription.roeHelmetFastFlashlight></entitydescription.roeHelmetFastFlashlight>
+
+<entityname.roeHelmetFastVisor>Шлем FAST "Страж"</entityname.roeHelmetFastVisor>
+<entitydescription.roeHelmetFastVisor></entitydescription.roeHelmetFastVisor>
+
+<entityname.roeHelmetFastDiving>Шлем FAST "Следопыт"</entityname.roeHelmetFastDiving>
+<entitydescription.roeHelmetFastDiving></entitydescription.roeHelmetFastDiving>
+
+    <!-- /helmet -->
 
 <!-- Armor.xml -->
 
