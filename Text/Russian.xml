@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Russian" nowhitespace="false" translatedname="Русский">
 
+<!-- Headgear.xml -->
+
+<entityname.roeHeadphones>Активные Наушники</entityname.roeHeadphones>
+<entitydescription.roeHeadphones></entitydescription.roeHeadphones>
+
+<entityname.roeBalaclava>Балаклава</entityname.roeBalaclava>
+<entitydescription.roeBalaclava></entitydescription.roeBalaclava>
+
+<entityname.roeBalaclavaGlasses>Балаклава со Стрелковыми Очками</entityname.roeBalaclavaGlasses>
+<entitydescription.roeBalaclavaGlasses></entitydescription.roeBalaclavaGlasses>
+
+<entityname.roeBalaclavaGoggles>Балаклава с Баллистическими Очками</entityname.roeBalaclavaGoggles>
+<entitydescription.roeBalaclavaGoggles></entitydescription.roeBalaclavaGoggles>
+
+<entityname.roeBalaclavaShades>Балаклава с Тёмными Очками</entityname.roeBalaclavaShades>
+<entitydescription.roeBalaclavaShades></entitydescription.roeBalaclavaShades>
+
 <!-- Armor.xml -->
 
 <entityname.roeArmorPlate>Плитник</entityname.roeArmorPlate>
 <entitydescription.roeArmorPlate>Чехол, содержащий баллистические пластины и панели, обеспечивающий превосходную защиту жизненно важных органов и не слишком сковывающий движения владельца. Не предоставляет достаточной противоосколочной защиты ввиду своей ограниченной площади.</entitydescription.roeArmorPlate>
 
-<entityname.roeVest>Разгрузочный жилет</entityname.roeVest>
+<entityname.roeVest>Разгрузочный Жилет</entityname.roeVest>
 <entitydescription.roeVest>Продвинутый разгрузочный жилет, позволяющий носить значительное количество предметов в быстром доступе, а также экипированный химсветом для облегчения опознания дружественных бойцов.</entitydescription.roeVest>
 
 <!-- Uniform.xml -->
 
-<entityname.roeUniformCombat>Тактическая униформа бойца</entityname.roeUniformCombat>
+<entityname.roeUniformCombat>Тактическая Униформа Бойца</entityname.roeUniformCombat>
 <entitydescription.roeUniformCombat></entitydescription.roeUniformCombat>
 
-<entityname.roeUniformMedic>Тактическая униформа врача</entityname.roeUniformMedic>
+<entityname.roeUniformMedic>Тактическая Униформа Врача</entityname.roeUniformMedic>
 <entitydescription.roeUniformMedic></entitydescription.roeUniformMedic>
 
-<entityname.roeUniformUtility>Тактическая униформа поддержки</entityname.roeUniformUtility>
+<entityname.roeUniformUtility>Тактическая Униформа Поддержки</entityname.roeUniformUtility>
 <entitydescription.roeUniformUtility></entitydescription.roeUniformUtility>
 
 </infotexts>

@@ -2,7 +2,7 @@
 
 <!-- HEADPHONES -->
 
-  <Item name="Headphones" identifier="roeHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -23,7 +23,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Headphones" identifier="roeBalaclava" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclava" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -47,7 +47,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Glasses" identifier="roeBalaclavaTactical" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaGlasses" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -71,7 +71,7 @@
     </Wearable>
   </Item>
   
-  <Item name="Balaclava with Goggles" identifier="roeBalaclavaGoggles" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaGoggles" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -95,7 +95,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Shades" identifier="roeBalaclavaShades" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaShades" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
