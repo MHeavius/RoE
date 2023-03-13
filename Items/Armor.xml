@@ -53,7 +53,7 @@
     <Sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,217,113,176" depth="0.6" />
     <Body width="113" height="175" density="20" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,217,113,176" scale="0.7" origin="0.5,0.45" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" >
+      <sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,217,113,176" origin="0.5,0.45" scale="0.7" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" >
         <LightComponent range="30.0" lightcolor="0,255,0,180" powerconsumption="0" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
           </StatusEffect>
