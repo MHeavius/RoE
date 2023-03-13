@@ -120,6 +120,15 @@
 <Item name="" identifier="roeBullet556" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
     <PreferredContainer primary="roeMagazine556" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" >
+        <RequiredSkill identifier="weapons" level="40" />
+        <RequiredItem identifier="magnesium" amount="2" />
+        <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="15">
+        <Item identifier="magnesium" amount="1" />
+        <Item identifier="lead" />
+    </Deconstruct>    
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,68,64,11" depth="0.55" origin="0.5,0.5" />
     <Body width="64" height="11" density="30" />
