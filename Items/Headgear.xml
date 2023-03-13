@@ -137,12 +137,11 @@
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,113,128,94" origin="0.5,0.5" depth="0.6" />
     <Body width="128" height="94" density="25" />
     <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,113,128,94" origin="0.59,0.77" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair" >
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,113,128,94" origin="0.59,0.77" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair" >
       </sprite>
     </Wearable>
   </Item>
@@ -164,6 +163,10 @@
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="138,113,128,94" origin="0.5,0.5" depth="0.6"  />
     <Body width="128" height="94" density="25" />
     <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />oncussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="138,113,128,94" origin="0.59,0.77" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair" >
         <LightComponent range="350.0" lightcolor="250,224,165,255" powerconsumption="0" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
@@ -171,11 +174,6 @@
           <LightTexture texture="%ModDir%/Items/roeFlashlight.png" origin="0.042, 0.477" size="1.0,1.5" />
         </LightComponent>
       </sprite>
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
     </Wearable>
   </Item>
 
@@ -196,12 +194,11 @@
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="422,113,140,126" origin="0.5,0.5" depth="0.6" />
     <Body width="140" height="125" density="25" />
     <Wearable slots="Any,Head" armorvalue="30.0" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="422,113,140,126" origin="0.54,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair" >
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="422,113,140,126" origin="0.54,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair" >
       </sprite>
     </Wearable>
   </Item>
@@ -244,12 +241,12 @@
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.56,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair,moustache,beard"  >
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="acidburn" armorsector="0.0,360.0" damagemultiplier="0.8" damagesound="" deflectprojectiles="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.56,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair,moustache,beard"  >
       </sprite>
     </Wearable>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
