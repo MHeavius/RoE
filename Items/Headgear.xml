@@ -153,12 +153,12 @@
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="roeHelmet" />
+      <Item identifier="roeHelmetFast" />
       <Item identifier="roeFlashlight" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="roeHelmet" amount="1" />
+      <RequiredItem identifier="roeHelmetFast" amount="1" />
       <RequiredItem identifier="roeFlashlight" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="138,113,128,94" origin="0.5,0.5" depth="0.6"  />
@@ -185,12 +185,12 @@
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="roeHelmet" />
+      <Item identifier="roeHelmetFast" />
       <Item identifier="roeVisor" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="roeHelmet" amount="1" />
+      <RequiredItem identifier="roeHelmetFast" amount="1" />
       <RequiredItem identifier="roeVisor" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="422,113,140,126" origin="0.5,0.5" depth="0.6" />
@@ -212,12 +212,12 @@
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="roeHelmet" />
+      <Item identifier="roeHelmetFast" />
       <Item identifier="divingmask" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="roeHelmet" amount="1" />
+      <RequiredItem identifier="roeHelmetFast" amount="1" />
       <RequiredItem identifier="divingmask" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.5,0.5" depth="0.6" />
