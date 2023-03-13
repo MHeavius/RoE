@@ -11,4 +11,6 @@ altnames="RoEW">
   <Item file="%ModDir%/Items/Equipment.xml"/>
   <Item file="%ModDir%/Items/Weapons.xml"/>
   <Particles file="%ModDir%/Particles/Particles.xml"/>
+  <Text file="%ModDir%/Text/English.xml"/>
+  <Text file="%ModDir%/Text/Russian.xml"/>
 </contentpackage>
