@@ -9,4 +9,15 @@
 <entityname.roeVest>Разгрузочный жилет</entityname.roeVest>
 <entitydescription.roeVest>Продвинутый разгрузочный жилет, позволяющий носить значительное количество предметов в быстром доступе, а также экипированный химсветом для облегчения опознания дружественных бойцов.</entitydescription.roeVest>
 
+<!-- Uniform.xml -->
+
+<entityname.roeUniformCombat>Тактическая униформа бойца</entityname.roeUniformCombat>
+<entitydescription.roeUniformCombat></entitydescription.roeUniformCombat>
+
+<entityname.roeUniformMedic>Тактическая униформа врача</entityname.roeUniformMedic>
+<entitydescription.roeUniformMedic></entitydescription.roeUniformMedic>
+
+<entityname.roeUniformUtility>Тактическая униформа поддержки</entityname.roeUniformUtility>
+<entitydescription.roeUniformUtility></entitydescription.roeUniformUtility>
+
 </infotexts>

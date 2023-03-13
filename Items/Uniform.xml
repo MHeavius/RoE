@@ -1,5 +1,5 @@
 ﻿<Items>
- <Item name="Tactical Uniform Combat" identifier="RoEUniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+ <Item name="" identifier="roeUniformCombat" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
     <Price baseprice="150" minavailable="1">
@@ -40,7 +40,7 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Tactical Uniform Medic" identifier="RoEUniformMed" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="roeUniformMedic" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
     <Price baseprice="150" minavailable="1">
@@ -80,7 +80,7 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Tactical Uniform Utility" identifier="RoEUniformUt" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="roeUniformUtility" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
     <Price baseprice="150" minavailable="1">

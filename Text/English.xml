@@ -10,4 +10,15 @@
 <entityname.roeVest>Load bearing vest</entityname.roeVest>
 <entitydescription.roeVest>An advanced load bearing vest, providing significant extra carrying capacity and equipped with chemlights for identifying friendly troops.</entitydescription.roeVest>
 
+<!-- Uniform.xml -->
+
+<entityname.roeUniformCombat>Tactical combat uniform</entityname.roeUniformCombat>
+<entitydescription.roeUniformCombat></entitydescription.roeUniformCombat>
+
+<entityname.roeUniformMedic>Tactical medic uniform</entityname.roeUniformMedic>
+<entitydescription.roeUniformMedic></entitydescription.roeUniformMedic>
+
+<entityname.roeUniformUtility>Tactical support uniform</entityname.roeUniformUtility>
+<entitydescription.roeUniformUtility></entitydescription.roeUniformUtility>
+
 </infotexts>
