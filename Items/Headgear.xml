@@ -2,7 +2,7 @@
 
 <!-- HEADPHONES -->
 
-  <Item name="Headphones" identifier="RoEHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="Headphones" identifier="roeHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -23,7 +23,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Headphones" identifier="RoEBalaclava" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="Balaclava with Headphones" identifier="roeBalaclava" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -47,7 +47,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Glasses" identifier="RoEBalaclavaTactical" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="Balaclava with Glasses" identifier="roeBalaclavaTactical" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -71,7 +71,7 @@
     </Wearable>
   </Item>
   
-  <Item name="Balaclava with Goggles" identifier="RoEBalaclavaGoggles" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="Balaclava with Goggles" identifier="roeBalaclavaGoggles" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -95,7 +95,7 @@
     </Wearable>
   </Item>
 
-  <Item name="Balaclava with Shades" identifier="RoEBalaclavaShades" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="Balaclava with Shades" identifier="roeBalaclavaShades" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -121,7 +121,7 @@
 
 <!-- HELMETS -->
 
-  <Item name="Tactical Helmet" identifier="RoEHelmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="Tactical Helmet" identifier="roeHelmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
@@ -147,19 +147,19 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Flashlight" identifier="RoEHelmetFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="Tactical Helmet Flashlight" identifier="roeHelmetFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="RoEHelmet" />
-      <Item identifier="RoEFlashlight" />
+      <Item identifier="roeHelmet" />
+      <Item identifier="roeFlashlight" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="RoEHelmet" amount="1" />
-      <RequiredItem identifier="RoEFlashlight" amount="1" />
+      <RequiredItem identifier="roeHelmet" amount="1" />
+      <RequiredItem identifier="roeFlashlight" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="138,113,128,94" origin="0.5,0.5" depth="0.6"  />
     <Body width="128" height="94" density="25" />
@@ -168,7 +168,7 @@
         <LightComponent range="350.0" lightcolor="250,224,165,255" powerconsumption="0" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
           </StatusEffect>
-          <LightTexture texture="%ModDir%/Items/RoEFlashlight.png" origin="0.042, 0.477" size="1.0,1.5" />
+          <LightTexture texture="%ModDir%/Items/roeFlashlight.png" origin="0.042, 0.477" size="1.0,1.5" />
         </LightComponent>
       </sprite>
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -179,19 +179,19 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Visor" identifier="RoEHelmetVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="Tactical Helmet Visor" identifier="roeHelmetVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="RoEHelmet" />
-      <Item identifier="RoEVisor" />
+      <Item identifier="roeHelmet" />
+      <Item identifier="roeVisor" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="RoEHelmet" amount="1" />
-      <RequiredItem identifier="RoEVisor" amount="1" />
+      <RequiredItem identifier="roeHelmet" amount="1" />
+      <RequiredItem identifier="roeVisor" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="422,113,140,126" origin="0.5,0.5" depth="0.6" />
     <Body width="140" height="125" density="25" />
@@ -206,24 +206,23 @@
     </Wearable>
   </Item>
 
-  <Item name="Tactical Helmet Diving Mask" identifier="RoEHelmetDiving" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="Tactical Helmet Diving Mask" identifier="roeHelmetDiving" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
-      <Item identifier="RoEHelmet" />
+      <Item identifier="roeHelmet" />
       <Item identifier="divingmask" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="3">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="RoEHelmet" amount="1" />
+      <RequiredItem identifier="roeHelmet" amount="1" />
       <RequiredItem identifier="divingmask" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.5,0.5" depth="0.6" />
     <Body width="136" height="124" density="25" />
     <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.56,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair"  >
       <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
       <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
         <Conditional IsDead="false" />
@@ -233,9 +232,9 @@
         <Conditional IsDead="false" />
         <RequiredItem items="weldingfueltank" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
         <RequiredItem items="incendiumfueltank" type="Contained" />
-        <Affliction identifier="burn" amount="3.0" />
+        <Affliction identifier="burn" amount="0.1" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
         <Conditional IsDead="false" />
@@ -245,6 +244,7 @@
         <Conditional IsDead="false" />
         <RequiredItem items="oxygenitetank" type="Contained" />
       </StatusEffect>
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="276,113,135,125" origin="0.56,0.58" scale="0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidewearablesoftype="Hair,moustache,beard"  >
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.25" damagesound="LimbArmor" deflectprojectiles="true" />

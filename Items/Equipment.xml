@@ -1,5 +1,5 @@
 <Items>
-  <Item name="Tactical Flashlight" identifier="RoEFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+  <Item name="Tactical Flashlight" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
@@ -26,7 +26,7 @@
         <RequiredItem items="mobilebattery" type="Contained" />
       </StatusEffect>    
       <LightComponent LightColor="255,230,180,180" Flicker="0.02" range="1200" powerconsumption="10" allowingameediting="false" >
-        <LightTexture texture="%ModDir%/Items/RoEFlashlight.png" sourcerect="0,0,1024,1024" origin="0.008,0.485" size="1,1" />
+        <LightTexture texture="%ModDir%/Items/roeFlashlight.png" sourcerect="0,0,1024,1024" origin="0.008,0.485" size="1,1" />
         <IsActive targetcontaineditem="true" condition="gt 1.0"/>
       </LightComponent>
     </Holdable>
@@ -45,7 +45,7 @@
     <AiTarget sightrange="3000" />
   </Item>
 
-  <Item name="Tactical Laser" identifier="RoELaser" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+  <Item name="Tactical Laser" identifier="roeLaser" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
@@ -72,7 +72,7 @@
         <RequiredItem items="mobilebattery" type="Contained" />
       </StatusEffect>    
       <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="1000" powerconsumption="8" allowingameediting="true" >
-        <LightTexture texture="%ModDir%/Items/RoELaserLight.png" origin="0.0,0.5" size="1,0.05" depth="0.6" />
+        <LightTexture texture="%ModDir%/Items/roeLaserLight.png" origin="0.0,0.5" size="1,0.05" depth="0.6" />
         <IsActive targetcontaineditem="true" condition="gt 1.0"/>
       </LightComponent>
     </Holdable>
@@ -91,7 +91,7 @@
     <AiTarget sightrange="1500" />
   </Item>
 
-  <Item name="Visor" identifier="RoEVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="Visor" identifier="roeVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
