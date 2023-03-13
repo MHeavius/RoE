@@ -1,4 +1,7 @@
 <Items>
+
+<!-- WEAPONS -->
+
 <Item name="ACR" identifier="RoEACR" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Weapon" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.4" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder"/>
     <Price baseprice="720" sold="false">
