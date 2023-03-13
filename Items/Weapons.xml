@@ -42,7 +42,7 @@
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (6).ogg" type="OnUse" range="1800" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Sleeve556" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-            <Explosion range="80" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+            <Explosion range="80" force="1" shockwave="false" flash="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
             <Use />
