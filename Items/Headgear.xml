@@ -14,8 +14,9 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/items/Icons.png" sourcerect="238,108,103,98" origin="0.5,0.5" depth="0.6" />
-    <Body width="118" height="111" density="30" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
+    <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="429,0,85,83" origin="0.5,0.65" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
     </Wearable>
@@ -36,8 +37,9 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,97,102" origin="0.5,0.5" depth="0.6" />
-    <Body width="118" height="111" density="30" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
+    <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="214,0,98,103" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
@@ -59,8 +61,9 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,97,102" origin="0.5,0.5" depth="0.6" />
-    <Body width="118" height="111" density="30" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
+    <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="321,0,98,103" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
@@ -82,8 +85,9 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="599,9,104,99" origin="0.5,0.5" depth="0.6" />
-    <Body width="118" height="111" density="30" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
+    <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,98,103" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
@@ -105,8 +109,9 @@
     </Fabricate>
     <WifiComponent range="40000.0" LinkToChat="true" MinChatMessageInterval="0.0">
     </WifiComponent>
-    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="599,9,104,99" origin="0.5,0.5" depth="0.6" />
-    <Body width="118" height="111" density="30" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
+    <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="107,0,98,103" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
       <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
