@@ -12,7 +12,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="219,11,127,98" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniform.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
@@ -53,7 +53,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="345,11,127,98" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniformMed.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
@@ -93,7 +93,7 @@
       <RequiredItem identifier="rubber" amount="1" />
       <RequiredItem identifier="organicfiber" amount="4" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="473,11,127,98" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,0,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/RoEUniformUt.png" sourcerect="412,214,100,42" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="42" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">

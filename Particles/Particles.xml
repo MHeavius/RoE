@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <prefabs>
-  <Sleeve556
+  <Shells
   lifetime="10" 
   startdelaymin="0" 
   startdelaymax="0" 
@@ -30,6 +30,47 @@
   sizechangemin="0,0" 
   sizechangemax="0,0" 
   priority="10">
-    <sprite name="Sleeve556" texture="%ModDir%/Items/Weapons.png" sourcerect="116,132,46,11" origin="0.5,0.5" depth="0.565" />
-  </Sleeve556>
+    <sprite name="Shells" texture="%ModDir%/Items/Weapons.png" sourcerect="116,132,46,11" origin="0.5,0.5" depth="0.565" />
+  </Shells>
+  <Barrelsmoke
+  LifeTime="3"
+  LifeTimeMin="0"
+  StartDelayMin="0"
+  StartDelayMax="0"
+  AngularVelocityMin="0"
+  AngularVelocityMax="0"
+  StartRotationMin="0"
+  StartRotationMax="360"
+  RotateToDirection="False"
+  Drag="0"
+  WaterDrag="0"
+  VelocityChange="0,0.2"
+  VelocityChangeWater="0,0.2"
+  CollisionRadius="1"
+  UseCollision="False"
+  DeleteOnCollision="False"
+  Friction="0.5"
+  Restitution="0.5"
+  StartSizeMin="0.1,0.1"
+  StartSizeMax="0.2,0.2"
+  SizeChangeMin="0.1,0.1"
+  SizeChangeMax="0.1,0.1"
+  GrowTime="0.1"
+  StartColor="255,255,255,255"
+  MiddleColor="255,255,255,255"
+  EndColor="50,50,50,255"
+  UseMiddleColor="False"
+  DrawTarget="Air"
+  DrawOnTop="True"
+  BlendState="AlphaBlend"
+  Priority="0"
+  AnimDuration="3"
+  LoopAnim="True">
+  <animatedsprite
+    texture="Content/Particles/Smoke.png"
+    sourcerect="0,0,4096,4096"
+    columns="8"
+    rows="8"
+    origin="0.5,0.5" />
+</Barrelsmoke>
 </prefabs>
