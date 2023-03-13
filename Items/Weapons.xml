@@ -41,8 +41,8 @@
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (5).ogg" type="OnUse" range="1800" />
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (6).ogg" type="OnUse" range="1800" />
         <StatusEffect type="OnUse" >
-            <ParticleEmitter particle="Sleeve556" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="3" scalemax="3" />
-            <Explosion range="100" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" colormultiplier="255,200,200,30" />
+            <ParticleEmitter particle="Sleeve556" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
+            <Explosion range="80" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
             <Use />
@@ -117,7 +117,7 @@
 <Item name="Bullet 5.56x45" identifier="RoE556Bullet" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
     <PreferredContainer primary="RoE556Mag" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,238,63,64" origin="0.5,0.5" scale="0.1" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,238,63,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,68,64,11" depth="0.55" origin="0.5,0.5" />
     <Body width="64" height="11" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
