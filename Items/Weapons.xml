@@ -21,8 +21,8 @@
     <Body width="290" height="72" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="55,5" handle1="-55,-25" handle2="50,18" holdangle="-28">
         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-        <StatusEffect type="OnUse" target="NearbyCharacters">        
-            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" type="OnUse" range="300" />
+        <StatusEffect type="OnUse" target="This">        
+            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" />
         </StatusEffect>
     </Holdable>
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
@@ -33,12 +33,12 @@
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <!-- <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.5,1.5" colormultiplier="255,200,200,30" /> -->
         <ParticleEmitter particle="weldsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="255,255,255,50" />
-        <Sound file="%ModDir%/Sounds/ACRShot (1).ogg" type="OnUse" range="1000" selectionmode="Random" />
-        <Sound file="%ModDir%/Sounds/ACRShot (2).ogg" type="OnUse" range="1000" />
-        <Sound file="%ModDir%/Sounds/ACRShot (3).ogg" type="OnUse" range="1000" />
-        <Sound file="%ModDir%/Sounds/ACRShot (4).ogg" type="OnUse" range="1000" />
-        <Sound file="%ModDir%/Sounds/ACRShot (5).ogg" type="OnUse" range="1000" />
-        <Sound file="%ModDir%/Sounds/ACRShot (6).ogg" type="OnUse" range="1000" />
+        <Sound file="%ModDir%/Sounds/ACRShot (1).ogg" type="OnUse" range="1800" selectionmode="Random" />
+        <Sound file="%ModDir%/Sounds/ACRShot (2).ogg" type="OnUse" range="1800" />
+        <Sound file="%ModDir%/Sounds/ACRShot (3).ogg" type="OnUse" range="1800" />
+        <Sound file="%ModDir%/Sounds/ACRShot (4).ogg" type="OnUse" range="1800" />
+        <Sound file="%ModDir%/Sounds/ACRShot (5).ogg" type="OnUse" range="1800" />
+        <Sound file="%ModDir%/Sounds/ACRShot (6).ogg" type="OnUse" range="1800" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Sleeve556" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="3" scalemax="3" />
             <Explosion range="100" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" colormultiplier="255,200,200,30" />
@@ -51,8 +51,8 @@
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
         <Containable items="RoE556Mag" itempos="-7.2,-10" />
+        <!-- <SlotIcon slotindex="0" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" /> -->
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
-        <SlotIcon slotindex="2" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
             <Containable items="RoEFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
         </SubContainer>
