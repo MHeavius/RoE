@@ -55,7 +55,7 @@
         <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roe556Mag" itempos="-7.2,-10" />
+        <Containable items="roeMagazine556" itempos="-7.2,-10" />
         <!-- <SlotIcon slotindex="0" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" /> -->
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
@@ -80,7 +80,7 @@
 
 <!-- MAGZINES -->
 
-<Item name="" identifier="roe556Mag" maxstacksize="1" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
+<Item name="" identifier="roeMagazine556" maxstacksize="1" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roeACR" minamount="1" maxamount="1" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
     <Price baseprice="350" sold="false" minleveldifficulty="60" displaynonempty="true">
@@ -118,7 +118,7 @@
 <!-- BULLETS -->
 
 <Item name="" identifier="roeBullet556" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
-    <PreferredContainer primary="roe556Mag" amount="30" spawnprobability="1"/>
+    <PreferredContainer primary="roeMagazine556" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,68,64,11" depth="0.55" origin="0.5,0.5" />

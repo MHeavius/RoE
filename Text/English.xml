@@ -6,8 +6,8 @@
 <entityname.roeACR>ACR</entityname.roeACR>
 <entitydescription.roeACR></entitydescription.roeACR>
 
-<entityname.roe556Mag>PMAG 5.56</entityname.roe556Mag>
-<entitydescription.roe556Mag></entitydescription.roe556Mag>
+<entityname.roeMagazine556>PMAG 5.56</entityname.roeMagazine556>
+<entitydescription.roeMagazine556></entitydescription.roeMagazine556>
 
 <entityname.roeBullet556>5.56x45 mm</entityname.roeBullet556>
 <entitydescription.roeBullet556></entitydescription.roeBullet556>
