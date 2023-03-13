@@ -18,10 +18,10 @@
       <RequiredItem identifier="plastic" amount="1" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/items/Icons.png" sourcerect="118,6,98,103" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/Equipment.png" sourcerect="128,210,100,117" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/items/Equipment.png" sourcerect="122,217,100,118" origin="0.5,0.5" depth="0.6" />
     <Body width="100" height="117" density="20" />
     <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite texture="%ModDir%/items/Equipment.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.7" inheritorigin="false" origin="0.5,0.7" inheritsourcerect="false" canbehiddenbyotherwearables="true" sourcerect="128,210,100,117" />
+      <sprite texture="%ModDir%/items/Equipment.png" sourcerect="122,217,100,118" origin="0.5,0.7" scale="0.7" limb="Torso" hidelimb="false" inheritscale="true" inheritorigin="false" inheritsourcerect="false" canbehiddenbyotherwearables="true" />
       <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.5" />
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations" armorsector="0.0,360.0" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.18" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -50,10 +50,10 @@
     </Fabricate>
     <Price baseprice="180" />
     <InventoryIcon texture="%ModDir%/items/RoEVestIcon.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,210,113,175" depth="0.6" />
+    <Sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,217,113,176" depth="0.6" />
     <Body width="113" height="175" density="20" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,210,113,175" scale="0.7" origin="0.5,0.45" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" >
+      <sprite texture="%ModDir%/items/Equipment.png" sourcerect="0,217,113,176" scale="0.7" origin="0.5,0.45" limb="Torso" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" >
         <LightComponent range="30.0" lightcolor="0,255,0,180" powerconsumption="0" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
           </StatusEffect>
