@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Russian" nowhitespace="false" translatedname="Русский">
 
-<entityname.RoEVest>Тактикульный жилет</entityname.RoEVest>
-<entitydescription.RoEVest>Лучше для мужчины нет.</entitydescription.RoEVest>
+<!-- Armor.xml -->
+
+<entityname.roeArmorPlate>Плитник</entityname.roeArmorPlate>
+<entitydescription.roeArmorPlate>Чехол, содержащий баллистические пластины и панели, обеспечивающий превосходную защиту жизненно важных органов и не слишком сковывающий движения владельца. Не предоставляет достаточной противоосколочной защиты ввиду своей ограниченной площади.</entitydescription.roeArmorPlate>
+
+<entityname.roeVest>Разгрузочный жилет</entityname.roeVest>
+<entitydescription.roeVest>Продвинутый разгрузочный жилет, позволяющий носить значительное количество предметов в быстром доступе, а также экипированный химсветом для облегчения опознания дружественных бойцов.</entitydescription.roeVest>
 
 </infotexts>

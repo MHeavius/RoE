@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
 
-<entityname.RoEVest>The best vest</entityname.RoEVest>
-<entitydescription.RoEVest>Wild, wild vest.</entitydescription.RoEVest>
+
+<!-- Armor.xml -->
+
+<entityname.roeArmorPlate>Plate carrier</entityname.roeArmorPlate>
+<entitydescription.roeArmorPlate>An armor carrier holding ballistic plates and panels, providing excellent protection for vital organs and not hindering the wearer's movement too much. Due to it's limited coverage, doesn't offer much protection against fragmentation.</entitydescription.roeArmorPlate>
+
+<entityname.roeVest>Load bearing vest</entityname.roeVest>
+<entitydescription.roeVest>An advanced load bearing vest, providing significant extra carrying capacity and equipped with chemlights for identifying friendly troops.</entitydescription.roeVest>
 
 </infotexts>
