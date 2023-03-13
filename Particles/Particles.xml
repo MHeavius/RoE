@@ -30,6 +30,6 @@
   sizechangemin="0,0" 
   sizechangemax="0,0" 
   priority="10">
-    <sprite name="Sleeve556" texture="%ModDir%/Items/Weapons.png" sourcerect="441,11,47,11" origin="0.5,0.5" depth="0.565" />
+    <sprite name="Sleeve556" texture="%ModDir%/Items/Weapons.png" sourcerect="116,132,46,11" origin="0.5,0.5" depth="0.565" />
   </Sleeve556>
 </prefabs>
