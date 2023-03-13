@@ -33,7 +33,7 @@
         <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <!-- <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.5,1.5" colormultiplier="255,200,200,30" /> -->
-        <ParticleEmitter particle="weldsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="255,255,255,50" />
+        <ParticleEmitter particle="weldsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (1).ogg" type="OnUse" range="1800" selectionmode="Random" />
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (2).ogg" type="OnUse" range="1800" />
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (3).ogg" type="OnUse" range="1800" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <prefabs>
   <Sleeve556
-  lifetime="30" 
+  lifetime="10" 
   startdelaymin="0" 
   startdelaymax="0" 
   angularvelocitymin="90" 
@@ -26,7 +26,7 @@
   blendstate="AlphaBlend"
   animduration="1" 
   loopanim="false" 
-  lifetimemin="15" 
+  lifetimemin="5" 
   sizechangemin="0,0" 
   sizechangemax="0,0" 
   priority="10">
