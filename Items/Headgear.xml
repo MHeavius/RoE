@@ -1,4 +1,5 @@
 ﻿<Items>
+
 <!-- HEADPHONES -->
 
   <Item name="Headphones" identifier="RoEHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
@@ -18,7 +19,7 @@
     <Sprite texture="%ModDir%/items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
     <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="429,0,85,83" origin="0.5,0.65" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="429,0,85,83" origin="0.42,0.6" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -41,8 +42,8 @@
     <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
     <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="214,0,98,103" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="214,0,98,103" origin="0.5,0.5" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.8,2.4" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -65,8 +66,8 @@
     <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
     <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="321,0,98,103" origin="0.4,0.4" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,1.1" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="321,0,98,103" origin="0.5,0.5" limb="Head" depth="0.61" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.8,2.4" limb="Torso" depth="0.61" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" />
     </Wearable>
   </Item>
   
@@ -89,8 +90,8 @@
     <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
     <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,98,103" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,0,98,103" origin="0.5,0.5" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.8,2.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
     </Wearable>
   </Item>
 
@@ -113,8 +114,8 @@
     <Sprite texture="%ModDir%/Items/Icons.png" sourcerect="268,143,104,98" origin="0.5,0.5" depth="0.6" />
     <Body width="104" height="98" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="107,0,98,103" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
-      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.4,0.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="107,0,98,103" origin="0.5,0.5" scale="0.5" depth="0.61" limb="Head" canbehiddenbyotherwearables="true" hidewearablesoftype="Hair,Beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="true" />
+      <sprite texture="%ModDir%/Items/Equipment.png" sourcerect="523,0,70,62" origin="0.8,2.4" scale="0.5" depth="0.61" limb="Torso" canbehiddenbyotherwearables="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" hidelimb="false" />
     </Wearable>
   </Item>
 
