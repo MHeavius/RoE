@@ -78,7 +78,7 @@
     </Quality>
 </Item>
 
-<!-- MAGZINES -->
+<!-- MAGAZINES -->
 
 <Item name="" identifier="roeMagazine556" maxstacksize="2" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roeACR" minamount="1" maxamount="1" spawnprobability="1"/>
@@ -109,7 +109,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
 </Item>
 
-<!-- BULLETS -->
+<!-- AMMO -->
 
 <Item name="" identifier="roeBullet556" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
     <PreferredContainer primary="roeMagazine556" amount="30" spawnprobability="1"/>
