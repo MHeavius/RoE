@@ -69,6 +69,10 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="8" depth="0.5" >
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier" />
+      <!-- Требуется иконка слота под магазин, а также способ эти слоты поставить снизу (первыми), а не сверху (последними)-->
+      <!-- <SubContainer capacity="2" maxstacksize="2">
+        <Containable items="magazine" />
+      </SubContainer> -->
     </ItemContainer>
   </Item>
 </items>

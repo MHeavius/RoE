@@ -35,7 +35,7 @@
       <SkillModifier skillidentifier="weapons" skillvalue="10" />
       <SkillModifier skillidentifier="helm" skillvalue="10" />
     </Wearable>
-    <ItemContainer capacity="1">
+    <ItemContainer capacity="2">
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,clothing" />
     </ItemContainer>
   </Item>
@@ -71,11 +71,12 @@
       <sprite name="Left Leg" texture="%ModDir%/Items/roeUniformMed.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Shoe" texture="%ModDir%/Items/roeUniformMed.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Left Shoe" texture="%ModDir%/Items/roeUniformMed.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.95" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound, bitewounds" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,gunshotwound" damagemultiplier="0.95" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.9" />
       <SkillModifier skillidentifier="medical" skillvalue="10" />
+      <StatValue stattype="WalkingSpeed" value="0.1" />
     </Wearable>
-    <ItemContainer capacity="1">
+    <ItemContainer capacity="2">
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,clothing" />
     </ItemContainer>
   </Item>
@@ -111,12 +112,12 @@
       <sprite name="Left Leg" texture="%ModDir%/Items/roeUniformUt.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Right Shoe" texture="%ModDir%/Items/roeUniformUt.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Left Shoe" texture="%ModDir%/Items/roeUniformUt.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.95" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound, bitewounds" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,burn" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound, bitewounds" damagemultiplier="0.95" />
       <SkillModifier skillidentifier="electrical" skillvalue="10" />
       <SkillModifier skillidentifier="mechanical" skillvalue="10" />
     </Wearable>
-    <ItemContainer capacity="1">
+    <ItemContainer capacity="2">
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,clothing" />
     </ItemContainer>
   </Item>
