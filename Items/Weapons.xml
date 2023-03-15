@@ -80,7 +80,7 @@
 
 <!-- MAGAZINES -->
 
-<Item name="" identifier="roeMagazine556" maxstacksize="2" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
+<Item name="" identifier="roeMagazine556" maxstacksize="1" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roeACR" minamount="1" maxamount="1" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
     <Price baseprice="350" sold="false" minleveldifficulty="60" displaynonempty="true">

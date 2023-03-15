@@ -3,7 +3,7 @@
 name="Rules of Engagement"
 corepackage="false"
 modversion="1"
-gameversion="0.21.6.0"
+gameversion="1.0.7.0"
 altnames="RoEW">
   <Item file="%ModDir%/Items/Headgear.xml"/>
   <Item file="%ModDir%/Items/Uniform.xml"/>
