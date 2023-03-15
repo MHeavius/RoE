@@ -4,8 +4,8 @@
 
   <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
-    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.02"/>
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.03"/>
     <Price baseprice="200" minavailable="2">
       <Price storeidentifier="merchantoutpost" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="3" />
@@ -15,10 +15,13 @@
     </Price>
     <Deconstruct time="15">
       <Item identifier="aluminium" />
+      <Item identifier="copper" />
+      <Item identifier="tin" />
       <Item identifier="lightcomponent" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="fpgacircuit" amount="1" />
       <RequiredItem identifier="aluminium" amount="2" />
       <RequiredItem identifier="lightcomponent" />
     </Fabricate>

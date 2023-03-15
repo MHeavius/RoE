@@ -34,8 +34,8 @@
 <!-- BAG -->
   <Item name="" identifier="roeVest" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.4" fireproof="true" impactsoundtag="impact_soft" >
     <PreferredContainer primary="engcab"/>
-    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05"/>
-    <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.03"/>
+    <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.01"/>
     <Deconstruct time="15">
       <Item identifier="organicfiber" amount="2" />
       <Item identifier="plastic" amount="1" />
@@ -68,9 +68,10 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="8" depth="0.5" >
+      <!-- <SlotIcon slotindex="6" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
+      <SlotIcon slotindex="7" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" /> -->
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier" />
-      <!-- Требуется иконка слота под магазин, а также способ эти слоты поставить снизу (первыми), а не сверху (последними)-->
-      <!-- <SubContainer capacity="2" maxstacksize="2">
+      <!-- <SubContainer capacity="2" maxstacksize="2" itempos="0,1">
         <Containable items="magazine" />
       </SubContainer> -->
     </ItemContainer>

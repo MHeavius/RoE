@@ -123,16 +123,18 @@
 
   <Item name="" identifier="roeHelmetFast" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="10">
       <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" amount="1" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ballisticfiber" amount="2" />
       <RequiredItem identifier="plastic" amount="1" />
+      <RequiredItem identifier="organicfiber" amount="1" />
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="0,113,128,94" origin="0.5,0.5" depth="0.6" />
     <Body width="128" height="94" density="25" />
@@ -147,7 +149,7 @@
 
   <Item name="" identifier="roeHelmetFastFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
@@ -178,7 +180,7 @@
 
   <Item name="" identifier="roeHelmetFastVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
@@ -203,7 +205,7 @@
 
   <Item name="" identifier="roeHelmetFastDiving" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
     <Price baseprice="180" />
     <Deconstruct time="3">
