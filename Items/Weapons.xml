@@ -56,7 +56,7 @@
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
         <Containable items="roeMagazine556" itempos="-7.2,-10" />
-        <!-- <SlotIcon slotindex="0" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" /> -->
+        <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
             <Containable items="roeFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
