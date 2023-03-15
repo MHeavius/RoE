@@ -61,7 +61,15 @@
 <entityname.roeUniformMedic>Тактическая Униформа Врача</entityname.roeUniformMedic>
 <entitydescription.roeUniformMedic></entitydescription.roeUniformMedic>
 
-<entityname.roeUniformUtility>Тактическая Униформа Поддержки</entityname.roeUniformUtility>
+<entityname.roeUniformUtility>Тактическая Униформа Инженера</entityname.roeUniformUtility>
 <entitydescription.roeUniformUtility></entitydescription.roeUniformUtility>
+
+<!-- Equipment.xml -->
+
+<entityname.roeFlashlight>Тактический Фонарь</entityname.roeFlashlight>
+<entitydescription.roeFlashlight>Более прочный фонарь, способный выдержать отдачу оружия и небрежное отношение в хаосе боя.</entitydescription.roeFlashlight>
+
+<entityname.roeVisor>Забрало Шлема</entityname.roeVisor>
+<entitydescription.roeVisor>Компонент, ожидающий установки на шлем. Предоставляет дополнительную защиту от огнестрельного оружия и укусов множества агрессивно настроенных обитателей Европы. </entitydescription.roeVisor>
 
 </infotexts>

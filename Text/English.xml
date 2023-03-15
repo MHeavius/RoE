@@ -61,7 +61,15 @@
 <entityname.roeUniformMedic>Tactical Medic Uniform</entityname.roeUniformMedic>
 <entitydescription.roeUniformMedic></entitydescription.roeUniformMedic>
 
-<entityname.roeUniformUtility>Tactical Support Uniform</entityname.roeUniformUtility>
+<entityname.roeUniformUtility>Tactical Engineer Uniform</entityname.roeUniformUtility>
 <entitydescription.roeUniformUtility></entitydescription.roeUniformUtility>
+
+<!-- Equipment.xml -->
+
+<entityname.roeFlashlight>Tactical Flashlight</entityname.roeFlashlight>
+<entitydescription.roeFlashlight>A more durable flashlight that can withstand weapon recoil and rough handling in the chaos of combat.</entitydescription.roeFlashlight>
+
+<entityname.roeVisor>Helmet Visor</entityname.roeVisor>
+<entitydescription.roeVisor>A component yet to be mounted on a helmet that will provide increased protection against gunfire and bites of many Europa's aggressive creatures. </entitydescription.roeVisor>
 
 </infotexts>

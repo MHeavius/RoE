@@ -2,7 +2,7 @@
 
 <!-- LIGHT -->
 
-  <Item name="Tactical Flashlight" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
@@ -84,7 +84,7 @@
 
 <!-- CRAFT ITEMS -->
 
-  <Item name="Visor" identifier="roeVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer secondary="armcab"/>
