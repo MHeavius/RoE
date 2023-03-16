@@ -11,6 +11,13 @@ altnames="RoE">
   <Item file="%ModDir%/Items/Equipment.xml"/>
   <Item file="%ModDir%/Items/Weapons.xml"/>
   <Particles file="%ModDir%/Particles/Particles.xml"/>
+  <Item file="%ModDir%/Override/Weapons.xml" />
+  <NPCSets file="%ModDir%/Override/NPCPrefabs/VanillaOutpostNpcs.xml" />
+  <NPCSets file="%ModDir%/Override/NPCPrefabs/DEOutpostNpcs.xml" />
+  <NPCSets file="%ModDir%/Override/NPCPrefabs/VanillaCombatMissionNpcs.xml" />
+  <NPCSets file="%ModDir%/Override/NPCPrefabs/DECombatMissionNpcs.xml" />
+  <!-- Пока нет изменений, связанных с экипировкой классов -->
+  <!-- <Jobs file="%ModDir%/Override/Jobs.xml" /> -->
   <Text file="%ModDir%/Text/English.xml"/>
   <Text file="%ModDir%/Text/Russian.xml"/>
 </contentpackage>
