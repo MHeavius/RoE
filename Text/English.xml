@@ -3,13 +3,22 @@
 
 <!-- Weapons.xml -->
 
+<entityname.roePP19>PP19-01 "Vityaz"</entityname.roePP19>
+<entitydescription.roePP19></entitydescription.roePP19>
+
+<entityname.roe9x19SmgMag>9x19 Magazine </entityname.roe9x19SmgMag>
+<entitydescription.roe9x19SmgMag></entitydescription.roe9x19SmgMag>
+
+<entityname.roeBullet9x19>9x19mm Parabellum</entityname.roeBullet9x19>
+<entitydescription.roeBullet9x19></entitydescription.roeBullet9x19>
+
 <entityname.roeACR>ACR</entityname.roeACR>
 <entitydescription.roeACR></entitydescription.roeACR>
 
-<entityname.roeMagazine556>PMAG 5.56</entityname.roeMagazine556>
+<entityname.roeMagazine556>PMAG 5.56x45</entityname.roeMagazine556>
 <entitydescription.roeMagazine556></entitydescription.roeMagazine556>
 
-<entityname.roeBullet556>5.56x45 mm</entityname.roeBullet556>
+<entityname.roeBullet556>5.56x45mm</entityname.roeBullet556>
 <entitydescription.roeBullet556></entitydescription.roeBullet556>
 
 <!-- Headgear.xml -->

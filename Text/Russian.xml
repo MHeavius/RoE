@@ -3,6 +3,15 @@
 
 <!-- Weapons.xml -->
 
+<entityname.roePP19>ПП-19-01 «Витязь»</entityname.roePP19>
+<entitydescription.roePP19></entitydescription.roePP19>
+
+<entityname.roe9x19SmgMag>Магазин ПП 9x19 мм </entityname.roe9x19SmgMag>
+<entitydescription.roe9x19SmgMag></entitydescription.roe9x19SmgMag>
+
+<entityname.roeBullet9x19>9×19 мм Парабеллум</entityname.roeBullet9x19>
+<entitydescription.roeBullet9x19></entitydescription.roeBullet9x19>
+
 <entityname.roeACR>ACR</entityname.roeACR>
 <entitydescription.roeACR></entitydescription.roeACR>
 
