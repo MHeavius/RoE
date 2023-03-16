@@ -138,7 +138,7 @@
     </CustomInterface>
   <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
     <Quality>
-      <QualityStat stattype="FirepowerMultiplier" value="0.1" />
+  <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
 </Item>
 
@@ -157,7 +157,7 @@
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="4" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="steel" />
       <RequiredItem identifier="copper" />
