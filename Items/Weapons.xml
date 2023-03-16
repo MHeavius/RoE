@@ -144,7 +144,7 @@
 
 <!-- MAGAZINES -->
 
-<Item name="" identifier="roeMagazine9x19Smg" maxstacksize="2" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
+<Item name="" identifier="roeMagazine9x19Smg" maxstacksize="1" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roePP19" amount="1" spawnprobability="1" />
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
@@ -212,11 +212,7 @@
         <RequiredItem identifier="lead" amount="1"  />
         <RequiredItem identifier="steel" amount="2"  />
     </Fabricate>
-    <Deconstruct time="15">
-        <Item identifier="magnesium" amount="1" />
-        <Item identifier="lead" />
-        <Item identifier="steel" amount="1"  />
-    </Deconstruct>
+    <Deconstruct time="2" />
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="75,67,30,12" depth="0.55" origin="0.5,0.5" />
     <Body width="30" height="12" density="30" />
@@ -249,10 +245,7 @@
         <RequiredItem identifier="lead" amount="2"  />
         <RequiredItem identifier="steel" amount="2"  />
     </Fabricate>
-    <Deconstruct time="15">
-        <Item identifier="magnesium" amount="2" />
-        <Item identifier="lead" />
-    </Deconstruct>    
+    <Deconstruct time="2" /> 
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,68,64,11" depth="0.55" origin="0.5,0.5" />
     <Body width="64" height="11" density="30" />
