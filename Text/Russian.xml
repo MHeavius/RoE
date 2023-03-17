@@ -3,10 +3,16 @@
 
 <!-- Weapons.xml -->
 
+<entityname.roeGlock>Glock 19</entityname.roeGlock>
+<entitydescription.roeGlock></entitydescription.roeGlock>
+
+<entityname.roeMagazine9x19Glock>Магазин Glock 19</entityname.roeMagazine9x19Glock>
+<entitydescription.roeMagazine9x19Glock></entitydescription.roeMagazine9x19Glock>
+
 <entityname.roePP19>ПП-19-01 «Витязь»</entityname.roePP19>
 <entitydescription.roePP19></entitydescription.roePP19>
 
-<entityname.roeMagazine9x19PP19>Магазин ПП 9x19 мм </entityname.roeMagazine9x19PP19>
+<entityname.roeMagazine9x19PP19>Магазин ПП «Витязь» 9x19 мм </entityname.roeMagazine9x19PP19>
 <entitydescription.roeMagazine9x19PP19></entitydescription.roeMagazine9x19PP19>
 
 <entityname.roeBullet9x19>9×19 мм Парабеллум</entityname.roeBullet9x19>
