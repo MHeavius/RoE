@@ -25,10 +25,10 @@
       <Item identifier="titaniumaluminiumalloy" />
     </Deconstruct>
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,60,40" depth="0.55" origin="0.5,0.5" />
-    <Body width="60" height="40" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-10" handle1="-30,-15" handle2="26,5" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="30,16" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,48,32" depth="0.55" origin="0.5,0.5" />
+    <Body width="48" height="32" density="25" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-5" handle1="-18,-3" handle2="-18,-3" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="false" barrelpos="30,16" spread="8" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -41,8 +41,8 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
-        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
-        <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
+        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
+        <Explosion range="150.0" force="1.5" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -51,7 +51,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine9x19Glock" itempos="-18,-4.5" />
+        <Containable items="roeMagazine9x19Glock" itempos="-9,-3" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <!-- <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
@@ -90,7 +90,7 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-10" handle1="-30,-15" handle2="26,5" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -104,8 +104,8 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
-        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
-        <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
+        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
+        <Explosion range="150.0" force="1.5" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -114,11 +114,11 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine9x19PP19" itempos="23,-13" />
+        <Containable items="roeMagazine9x19PP19" itempos="11.5,-6.5" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
-            <Containable items="roeFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
+            <Containable items="roeFlashlight,flashlight" hide="false" itempos="29.5,7.5" SetActive="True" />      
         </SubContainer>
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
@@ -152,16 +152,13 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,148,183,63" depth="0.55" origin="0.5,0.5" />
     <Body width="183" height="63" density="25" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="55,5" handle1="-55,-25" handle2="50,18" holdangle="-28">
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="46.5,5" handle1="-27,-18" handle2="37,11" holdangle="-28">
         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
         <StatusEffect type="OnUse" target="This">        
             <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" />
         </StatusEffect>
     </Holdable>
-    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-        <sprite texture="%ModDir%/Items/Weapons.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="0,164,290,72" limb="Torso" scale="0.5" origin="0.5,0.8" />
-    </Wearable>
-    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="92,9" spread="4" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="93,8" spread="4" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
         <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -175,7 +172,7 @@
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (6).ogg" type="OnUse" range="1800" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-            <Explosion range="80" force="1" shockwave="false" flash="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+            <Explosion range="80" force="1" shockwave="false" flash="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
             <Use />
@@ -184,13 +181,23 @@
         <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine556" itempos="8,-16.5" />
+        <Containable items="roeMagazine556" itempos="4,-8.5" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
             <Containable items="roeFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
         </SubContainer>
     </ItemContainer>
+    <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="800" powerconsumption="0" allowingameediting="true" >
+        <LightTexture texture="%ModDir%/Items/roeLaserLight.png" origin="0.01,0.5" size="1,0.05" depth="0.6" />  
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+        <GuiFrame relativesize="0.12,0.12" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+        <TickBox text="Tactical Laser">
+            <StatusEffect Type="OnUse" Target="This"  IsOn="True" Stackable="False" />
+            <StatusEffect Type="OnSecondaryUse" Target="This" IsOn="False" Stackable="False" />
+        </TickBox>
+    </CustomInterface>
   <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
     <Quality>
   <QualityStat stattype="FirepowerMultiplier" value="0.1" />
@@ -297,7 +304,7 @@
     </Deconstruct>
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="66,665,26,33" depth="0.55" origin="0.5,0.5" />
     <Body width="26" height="33" density="25" />
-    <ItemContainer hideitems="true" capacity="1" maxstacksize="20" containedstateindicatorstyle="bullet" >
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="17" containedstateindicatorstyle="bullet" >
         <Containable items="roeBullet9x19" />
         <SlotIcon texture="Content/UI/ContainerIndicators.png" sourcerect="1,62,120,29" origin="0.5,0.5" />
     </ItemContainer>
