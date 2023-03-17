@@ -45,9 +45,17 @@
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6"/>
+          <Item identifier="roeGlock" equip="true">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+            </Item>
           </Item>
+          <Item identifier="roeGlock" equip="true">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+            </Item>
+          </Item>
+          <Item identifier="roeBullet9x19" amout="7"/>
         </ItemSet>
       </npc>
 
