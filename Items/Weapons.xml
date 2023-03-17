@@ -27,8 +27,8 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,48,32" depth="0.55" origin="0.5,0.5" />
     <Body width="48" height="32" density="25" />
-    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-5" handle1="-18,-3" handle2="-18,-3" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="false" barrelpos="30,16" spread="8" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.08" weapondamagemodifier="1" penetration="0" holdtrigger="false" barrelpos="24,2" spread="15" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -51,7 +51,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine9x19Glock" itempos="-9,-3" />
+        <Containable items="roeMagazine9x19Glock" itempos="-7,-1" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <!-- <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
