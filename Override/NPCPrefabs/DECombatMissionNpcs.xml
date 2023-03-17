@@ -118,11 +118,11 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
-          <Item identifier="roeMagazine9x19Smg">
+          <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
           </Item>
           <Item identifier="divingknife" />
@@ -470,11 +470,11 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
-          <Item identifier="roeMagazine9x19Smg">
+          <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
           </Item>
           <Item identifier="divingknife" />
@@ -716,11 +716,11 @@
           <Item identifier="idcard" equip="true" tags="id_coalitionsecurity" />
           <Item identifier="headset" equip="true" showpreview="false" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
-          <Item identifier="roeMagazine9x19Smg">
+          <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
           </Item>
           <Item identifier="handcuffs" equip="false" />
@@ -1110,11 +1110,11 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
-          <Item identifier="roeMagazine9x19Smg">
+          <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
           </Item>
           <Item identifier="divingknife" />

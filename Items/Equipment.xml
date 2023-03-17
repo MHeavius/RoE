@@ -2,7 +2,7 @@
 
 <!-- LIGHT -->
 
-  <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.02"/>
     <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.03"/>
@@ -26,8 +26,8 @@
       <RequiredItem identifier="lightcomponent" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/items/Icons.png" sourcerect="128,512,128,128" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="116,90,125,31" depth="0.55" origin="0.5,0.6" />
-    <Body width="125" height="31" density="15" />    
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,443,64,17" depth="0.55" origin="0.5,0.6" />
+    <Body width="64" height="17" density="15" />    
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect" >  
       <StatusEffect type="OnActive" targettype="Contained" Condition="-0.2">
         <RequiredItem items="mobilebattery" type="Contained" />
@@ -103,4 +103,44 @@
     <Body width="61" height="117" density="25" />
       <Holdable slots="Any,RightHand,LeftHand" holdangle="10" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
+
+<!-- STORAGE -->
+
+  <!-- Базовая игра не выдаёт общих тэгов пулям. Внедрим ящик, когда заменим большую часть боеприпасов на свои -->
+  <!-- <Item name="" identifier="roeContainerAmmo" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_metal_heavy" RequireAimToUse="True">
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05"/>
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.1"/>
+    <Deconstruct time="15">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <Item identifier="titaniumaluminiumalloy" amount="2" />
+      <Item identifier="rubber" />
+    </Fabricate>
+    <Price baseprice="150">
+      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="2" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Equipment.png" sourcerect="330,268,152,122" origin="0.5,0.6" />
+    <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="330,268,152,122" origin="0.5,0.5" depth="0.6" />
+    <Body width="152" height="122" density="20" />
+    <MeleeWeapon slots="RightHand,LeftHand" controlpose="true" aimpos="45,10" handle1="0,18" holdangle="90" reload="2" range="50" combatpriority="6" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="0" itemdamage="1" targetimpulse="3">
+        <Affliction identifier="blunttrauma" strength="4" />
+        <Affliction identifier="stun" strength="1.2" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character"/>
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500"/>
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <ItemContainer capacity="12" keepopenwhenequipped="true" movableframe="true">
+      <SlotIcon texture="Content/UI/ContainerIndicators.png" sourcerect="1,62,120,29" origin="0.5,0.5" />
+      <Containable items="bullet,magazine" />
+    </ItemContainer>
+    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
+  </Item> -->
+
 </Items>

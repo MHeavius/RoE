@@ -282,7 +282,7 @@
             <Item identifier="revolverround" amount="6"/>
           </Item>
       <Item identifier="roePP19">
-              <Item identifier="roeMagazine9x19Smg">
+              <Item identifier="roeMagazine9x19PP19">
                 <Item identifier="roeBullet9x19" amount="30"/>
               </Item>
             </Item>
@@ -303,11 +303,11 @@
           <Item identifier="batterycell" amount="8" />
           <Item identifier="handcuffs" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
-          <Item identifier="roeMagazine9x19Smg">
+          <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
           </Item>
           <Item identifier="divingknife" />
@@ -409,7 +409,7 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="wrench" equip="true" />
           <Item identifier="roePP19">
-            <Item identifier="roeMagazine9x19Smg">
+            <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
             </Item>
           </Item>
