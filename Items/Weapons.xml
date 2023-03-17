@@ -7,7 +7,7 @@
     <PreferredContainer secondary="outpostsecarmcab" amount="1" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab" amount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="armcab,weaponholder" />
-    <Price baseprice="320" minleveldifficulty="30">
+    <Price baseprice="180" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="1" sold="false" />
       <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
@@ -15,20 +15,20 @@
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="2" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" requiresrecipe="true">
-      <RequiredSkill identifier="weapons" level="55" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="35" />
       <RequiredItem identifier="plastic" />
-      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="steel" />
     </Fabricate>
-    <Deconstruct time="15">
+    <Deconstruct time="8">
       <Item identifier="plastic" />
-      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="steel" />
     </Deconstruct>
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,48,32" depth="0.55" origin="0.5,0.5" />
     <Body width="48" height="32" density="25" />
     <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.08" weapondamagemodifier="1" penetration="0" holdtrigger="false" barrelpos="24,2" spread="15" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.09" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,2" spread="15" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -42,7 +42,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-        <Explosion range="150.0" force="1.5" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
+        <Explosion range="150.0" force="1.3" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -78,20 +78,20 @@
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="2" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" requiresrecipe="true">
-      <RequiredSkill identifier="weapons" level="55" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="35">
+      <RequiredSkill identifier="weapons" level="45" />
       <RequiredItem identifier="plastic" />
-      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="steel" amount="2" />
     </Fabricate>
     <Deconstruct time="15">
       <Item identifier="plastic" />
-      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="steel" />
     </Deconstruct>
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.12" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -158,7 +158,7 @@
             <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" />
         </StatusEffect>
     </Holdable>
-    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="93,8" spread="4" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="93,8" spread="8" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
         <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -286,15 +286,15 @@
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
     <PreferredContainer secondary="secarmcab" />
-    <Price baseprice="100" displaynonempty="true" minleveldifficulty="15">
+    <Price baseprice="60" displaynonempty="true" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="1" />
       <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="4" />
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="4" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
       <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="steel" />
       <RequiredItem identifier="copper" />
@@ -316,7 +316,7 @@
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
     <PreferredContainer secondary="secarmcab" />
-    <Price baseprice="100" displaynonempty="true" minleveldifficulty="15">
+    <Price baseprice="70" displaynonempty="true" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" sold="false" />
       <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
@@ -324,7 +324,7 @@
       <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="4" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="steel" />
       <RequiredItem identifier="copper" />
@@ -342,16 +342,16 @@
   </Item>
 
 <Item name="" identifier="roeMagazine556" maxstacksize="1" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="roeACR" minamount="1" maxamount="1" spawnprobability="1"/>
+    <PreferredContainer primary="roeM4" minamount="1" maxamount="1" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
-    <Price baseprice="350" sold="false" minleveldifficulty="60" displaynonempty="true">
+    <Price baseprice="85" sold="false" minleveldifficulty="60" displaynonempty="true">
         <Price storeidentifier="merchantoutpost" multiplier="1.4" />
         <Price storeidentifier="merchantcity" multiplier="1.25" />
         <Price storeidentifier="merchantresearch" multiplier="1.25" />
         <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
         <Price storeidentifier="merchantmine" multiplier="1.25" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" >
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" >
         <RequiredSkill identifier="weapons" level="40" />
         <RequiredItem identifier="titaniumaluminiumalloy" />
         <RequiredItem identifier="copper" />
@@ -374,7 +374,7 @@
     <PreferredContainer primary="roeMagazine9x19Glock" amount="20" spawnprobability="1"/>
     <PreferredContainer primary="roeMagazine9x19PP19" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
-    <Price baseprice="30">
+    <Price baseprice="30" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="10" />
       <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="20" />
       <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
@@ -409,12 +409,19 @@
         <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
       </StatusEffect>
     </Projectile>
-    <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
 
 <Item name="" identifier="roeBullet556" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
     <PreferredContainer primary="roeMagazine556" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
+    <Price baseprice="45" minleveldifficulty="45">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="10" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="30" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="60" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="60" />
+    </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="30" amount="30" >
         <RequiredSkill identifier="weapons" level="40" />
         <RequiredItem identifier="magnesium" amount="3" />
@@ -428,7 +435,7 @@
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,30" scalemultiplier="1,0.8" />
-            <Attack structuredamage="10" targetforce="7.5" itemdamage="20" severlimbsprobability="0.2" penetration="0.2">
+            <Attack structuredamage="5" targetforce="7.5" itemdamage="15" severlimbsprobability="0.2" penetration="0.2">
             <Affliction identifier="gunshotwound" strength="30" />
             <Affliction identifier="bleeding" strength="15" />
             <Affliction identifier="stun" strength="0.25" />
@@ -443,5 +450,5 @@
             <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
         </StatusEffect>
     </Projectile>  
-</Item>
+  </Item>
 </Items>

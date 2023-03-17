@@ -421,13 +421,22 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="pirateclothesPA" equip="true" />
           <Item identifier="crowbar" equip="true" />
-          <Item identifier="machinepistol" equip="true">
-            <Item identifier="smgmagazine" />
+          <Item identifier="roeGlock" equip="true">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+            </Item>
           </Item>
-          <Item identifier="machinepistol" equip="true">
-            <Item identifier="smgmagazine" />
+          <Item identifier="roeGlock" equip="true">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+            </Item>
           </Item>
-          <Item identifier="smgmagazine" amount="4" />
+          <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+          </Item>
+          <Item identifier="roeMagazine9x19Glock">
+            <Item identifier="roeBullet9x19" amout="17"/>
+          </Item>
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>

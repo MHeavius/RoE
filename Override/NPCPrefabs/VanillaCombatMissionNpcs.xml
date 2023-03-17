@@ -290,13 +290,16 @@
           <Item identifier="securityuniform3" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false"/>
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock" equip="true">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amout="17"/>
+          </Item>
+          <Item identifier="roeMagazine9x19Glock">
+            <Item identifier="roeBullet9x19" amout="17"/>
           </Item>
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
