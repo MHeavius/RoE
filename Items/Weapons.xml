@@ -24,11 +24,11 @@
       <Item identifier="plastic" />
       <Item identifier="titaniumaluminiumalloy" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,192,178,53" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="66,665,26,33" depth="0.55" origin="0.5,0.5" />
-    <Body width="26" height="33" density="25" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,60,40" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="40" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-10" handle1="-30,-15" handle2="26,5" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,14" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="30,16" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -41,7 +41,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
-        <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
+        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
@@ -51,12 +51,12 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine9x19Glock" itempos="4,-10" />
+        <Containable items="roeMagazine9x19Glock" itempos="-18,-4.5" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
-        <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
+        <!-- <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
             <Containable items="roeFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />      
-        </SubContainer>
+        </SubContainer> -->
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
     <Quality>
@@ -87,11 +87,11 @@
       <Item identifier="plastic" />
       <Item identifier="titaniumaluminiumalloy" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,192,178,53" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="45,-10" handle1="-30,-15" handle2="26,5" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,14" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.14" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -104,7 +104,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
-        <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
+        <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.4" scalemax="0.4" />
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
@@ -114,7 +114,7 @@
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine9x19PP19" itempos="4,-10" />
+        <Containable items="roeMagazine9x19PP19" itempos="23,-13" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
@@ -149,7 +149,7 @@
         <Item identifier="steel" />
         <Item identifier="plastic" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,384,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,148,183,63" depth="0.55" origin="0.5,0.5" />
     <Body width="183" height="63" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="55,5" handle1="-55,-25" handle2="50,18" holdangle="-28">
@@ -161,7 +161,7 @@
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
         <sprite texture="%ModDir%/Items/Weapons.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="0,164,290,72" limb="Torso" scale="0.5" origin="0.5,0.8" />
     </Wearable>
-    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="96,24" spread="4" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="92,9" spread="4" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
         <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -184,7 +184,7 @@
         <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
-        <Containable items="roeMagazine556" itempos="-7.2,-10" />
+        <Containable items="roeMagazine556" itempos="8,-16.5" />
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
@@ -363,7 +363,7 @@
 
 <!-- AMMO -->
 
-<Item name="" identifier="roeBullet9x19"  maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,smgammo,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.5">
+<Item name="" identifier="roeBullet9x19"  maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,smgammo,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
     <PreferredContainer primary="roeMagazine9x19Glock" amount="20" spawnprobability="1"/>
     <PreferredContainer primary="roeMagazine9x19PP19" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
@@ -382,7 +382,7 @@
         <RequiredItem identifier="steel" amount="2"  />
     </Fabricate>
     <Deconstruct time="2" />
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,385,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="240,887,37,13" depth="0.55" origin="0.5,0.5" />
     <Body width="37" height="13" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
@@ -415,7 +415,7 @@
         <RequiredItem identifier="steel" amount="2"  />
     </Fabricate>
     <Deconstruct time="2" /> 
-    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="0,385,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,887,76,13" depth="0.55" origin="0.5,0.5" />
     <Body width="76" height="13" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
