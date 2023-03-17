@@ -30,8 +30,40 @@
   sizechangemin="0,0" 
   sizechangemax="0,0" 
   priority="10">
-    <sprite name="Shells" texture="%ModDir%/Items/Weapons.png" sourcerect="116,132,46,11" origin="0.5,0.5" depth="0.565" />
+    <sprite name="Shells" texture="%ModDir%/Items/Weapons.png" sourcerect="86,887,60,13" origin="0.5,0.5" depth="0.565" />
   </Shells>
+  <ShellsSmall
+  lifetime="10" 
+  startdelaymin="0" 
+  startdelaymax="0" 
+  angularvelocitymin="90" 
+  angularvelocitymax="120" 
+  startrotationmin="0" 
+  startrotationmax="360" 
+  rotatetodirection="false" 
+  drag="1" 
+  waterdrag="1" 
+  velocitychange="0,-15" 
+  collisionradius="1" 
+  usecollision="true" 
+  deleteoncollision="False" 
+  friction="0.1" restitution="0.4" 
+  startsizemin=".15,.15" 
+  startsizemax=".15,.15" 
+  growtime="0.0" 
+  startcolor="255,255,255,255" 
+  endcolor="255,255,255,0" 
+  drawtarget="Both" 
+  drawontop="True"
+  blendstate="AlphaBlend"
+  animduration="1" 
+  loopanim="false" 
+  lifetimemin="5" 
+  sizechangemin="0,0" 
+  sizechangemax="0,0" 
+  priority="10">
+    <sprite name="ShellsSmall" texture="%ModDir%/Items/Weapons.png" sourcerect="287,887,27,13" origin="0.5,0.5" depth="0.565" />
+  </ShellsSmall>
   <Barrelsmoke
   LifeTime="3"
   LifeTimeMin="0"
