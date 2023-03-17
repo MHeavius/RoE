@@ -30,10 +30,10 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,60,40" depth="0.55" origin="0.5,0.5" />
     <Body width="60" height="40" density="25" />
     <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.09" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,2" spread="15" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.3" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,14" spread="0.8" unskilledspread="8" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" scalemin="0.4" scalemax="0.6" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
@@ -44,7 +44,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-        <Explosion range="150.0" force="1.3" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
+        <Explosion range="100.0" force="1.2" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -93,10 +93,10 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="70,295,61,42" depth="0.55" origin="0.5,0.5" />
     <Body width="61" height="42" density="25" />
     <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.09" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,2" spread="15" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.38" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,14" spread="1.2" unskilledspread="12" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" scalemin="0.4" scalemax="0.6" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
@@ -107,7 +107,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-        <Explosion range="150.0" force="1.3" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
+        <Explosion range="100.0" force="1.2" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -157,8 +157,8 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="512,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="188,221,178,59" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="59" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.12" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="44.5,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.18" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="92,24" spread="11.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -172,7 +172,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-        <Explosion range="150.0" force="1.5" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
+        <Explosion range="100.0" force="1" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -185,7 +185,7 @@
         <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
         <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
         <SubContainer capacity="1" maxstacksize="1" >
-            <Containable items="roeFlashlight,flashlight" hide="false" itempos="29,9" SetActive="True" />      
+            <Containable items="roeFlashlight,flashlight" hide="false" itempos="29,6" SetActive="True" />      
         </SubContainer>
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
@@ -221,7 +221,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.12" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,13.5" spread="10" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.2" weapondamagemodifier="1.1" penetration="0" holdtrigger="true" barrelpos="89,24" spread="10" unskilledspread="15" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -235,7 +235,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-        <Explosion range="150.0" force="1.5" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
+        <Explosion range="100.0" force="1" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
@@ -260,7 +260,7 @@
 
 <!-- CQB -->
 
-  <Item name="" identifier="roeM4" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Weapon" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="roeM4CQB" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Weapon" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder"/>
     <Price baseprice="380" sold="false">
         <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
@@ -287,24 +287,26 @@
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="46.5,5" handle1="-27,-18" handle2="37,11" holdangle="-28">
         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
         <StatusEffect type="OnUse" target="This">        
-            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" />
+            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
         </StatusEffect>
     </Holdable>
-    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="93,8" spread="8" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.18" holdtrigger="true" barrelpos="96,18" spread="8" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
         <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
         <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
         <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
         <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
         <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (1).ogg" type="OnUse" range="1800" selectionmode="Random" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (2).ogg" type="OnUse" range="1800" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (3).ogg" type="OnUse" range="1800" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (4).ogg" type="OnUse" range="1800" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (5).ogg" type="OnUse" range="1800" />
-        <Sound file="%ModDir%/Sounds/ACR/ACRShot (6).ogg" type="OnUse" range="1800" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (3).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (4).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (5).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (6).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (7).ogg" type="OnUse" volume="1.8" range="3000" />
+        <Sound file="%ModDir%/Sounds/M4/M4Shot (8).ogg" type="OnUse" volume="1.8" range="3000" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-            <Explosion range="80" force="1" shockwave="false" flash="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+            <Explosion range="100" force="1" shockwave="false" flash="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
             <Use />
@@ -379,7 +381,7 @@
         <Sound file="%ModDir%/Sounds/ACR/ACRShot (6).ogg" type="OnUse" range="1800" />
         <StatusEffect type="OnUse" >
             <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
-            <Explosion range="80" force="1" shockwave="false" flash="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+            <Explosion range="100" force="1" shockwave="false" flash="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
         </StatusEffect>
         <StatusEffect type="OnUse" target="Contained">
             <Use />
@@ -415,7 +417,7 @@
 
 <!-- PISTOL -->
 
-<Item name="" identifier="roeMagazine9x19Glock" maxstacksize="1" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
+<Item name="" identifier="roeMagazine9x19Glock" maxstacksize="1" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roeGlock" amount="1" spawnprobability="1" />
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
@@ -436,7 +438,7 @@
     <Deconstruct time="10">
       <Item identifier="steel" />
     </Deconstruct>
-    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="66,665,26,33" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="66,665,23,30" depth="0.55" origin="0.5,0.5" />
     <Body width="26" height="33" density="25" />
     <ItemContainer hideitems="true" capacity="1" maxstacksize="17" containedstateindicatorstyle="bullet" >
         <Containable items="roeBullet9x19" />
@@ -445,7 +447,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
 
-<Item name="" identifier="roeMagazine9x19Grach" maxstacksize="1" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
+<Item name="" identifier="roeMagazine9x19Grach" maxstacksize="1" scale="0.4" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,magazine" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="roeGlock" amount="1" spawnprobability="1" />
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
@@ -468,7 +470,7 @@
     </Deconstruct>
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="99,665,19,30" depth="0.55" origin="0.5,0.5" />
     <Body width="26" height="33" density="25" />
-    <ItemContainer hideitems="true" capacity="1" maxstacksize="17" containedstateindicatorstyle="bullet" >
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="18" containedstateindicatorstyle="bullet" >
         <Containable items="roeBullet9x19" />
         <SlotIcon texture="Content/UI/ContainerIndicators.png" sourcerect="1,62,120,29" origin="0.5,0.5" />
     </ItemContainer>
@@ -569,8 +571,10 @@
 <!-- AMMO -->
 
 <Item name="" identifier="roeBullet9x19"  maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,smgammo,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
-    <PreferredContainer primary="roeMagazine9x19Glock" amount="20" spawnprobability="1"/>
-    <PreferredContainer primary="roeMagazine9x19PP19" amount="30" spawnprobability="1"/>
+    <PreferredContainer primary="roeMagazine9x19Glock" amount="17" spawnprobability="1"/>
+    <PreferredContainer primary="roeMagazine9x19Grach" amount="18" spawnprobability="1"/>
+    <PreferredContainer primary="roeMagazine9x19PP19" amount="30" spawnprobability="1"/>\
+    <PreferredContainer primary="roeMagazine9x19MP5" amount="30" spawnprobability="1"/>
     <PreferredContainer primary="armcab" secondary="secarmcab"/>
     <Price baseprice="30" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="10" />
