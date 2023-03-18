@@ -99,4 +99,9 @@
 <entityname.roeVisor>Helmet Visor</entityname.roeVisor>
 <entitydescription.roeVisor>A component yet to be mounted on a helmet that will provide increased protection against gunfire and bites of many Europa's aggressive creatures. </entitydescription.roeVisor>
 
+<!-- Talents.xml -->
+
+<talentname.roeTalentKneelingPosition>Kneeling Position Shooting Mastery</talentname.roeTalentKneelingPosition>
+<talentdescription.roeTalentKneelingPosition>When firing a ranged weapon while kneeling, you gain [spreadreduction]% reduction to spread and will not be knocked down by the recoil of large caliber weapons.</talentdescription.roeTalentKneelingPosition>
+
 </infotexts>

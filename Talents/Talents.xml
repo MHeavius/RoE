@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="roeTalentKneelingPosition">
+    <Description tag="talentdescription.roeTalentKneelingPosition">
+      <Replace tag="[spreadreduction]" value="20" color="gui.green"/>
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="7,1" sheetelementsize="128,128"/>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionCrouched/>
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="RangedSpreadReduction" value="0.8"/>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" interval="0.9" disabledeltatime="true">
+              <Affliction identifier="recoilstabilized" amount="1" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+</Talents>

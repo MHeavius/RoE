@@ -31,14 +31,12 @@
         <ItemSet commonness="1">
           <Item identifier="researcherclothes" equip="true" />
           <Item identifier="idcard" equip="true" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="3" />
           <Item identifier="rum" equip="true" />
           <Item identifier="divingmask" equip="false">
             <Item identifier="oxygentank" />
@@ -115,13 +113,10 @@
           <Item identifier="grenadelauncher" equip="true">
             <Item identifier="40mmgrenade" />
           </Item>
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
           <Item identifier="40mmgrenade" />
           <Item identifier="40mmgrenade" />
@@ -163,8 +158,10 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="wrench" equip="true" />
           <Item identifier="screwdriver" equip="true" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGrach">
+            <Item identifier="roeMagazine9x19Grach">
+              <Item identifier="roeBullet9x19" amount="18" />
+            </Item>
           </Item>
           <Item identifier="weldingtool" equip="false">
             <Item identifier="weldingfueltank" />
@@ -181,8 +178,10 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="wrench" equip="true" />
           <Item identifier="screwdriver" equip="true" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
           <Item identifier="weldingtool" equip="false">
             <Item identifier="weldingfueltank" />
@@ -220,8 +219,10 @@
           <Item identifier="wrench" equip="true" />
           <Item identifier="screwdriver" equip="true" />
           <Item identifier="crowbar" equip="true" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
@@ -242,8 +243,10 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="wrench" equip="true" />
           <Item identifier="screwdriver" equip="true" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGrach">
+            <Item identifier="roeMagazine9x19Grach">
+              <Item identifier="roeBullet9x19" amount="18" />
+            </Item>
           </Item>
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
@@ -263,8 +266,10 @@
           <Item identifier="pirateclotheshardPA" equip="true" />
           <Item identifier="headset" equip="true" />
           <Item identifier="idcard" equip="true" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
@@ -350,10 +355,14 @@
           </Item>
           <Item identifier="batterycell" amount="8" />
           <Item identifier="handcuffs" />
-          <Item identifier="revolver" equip="false">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
-          <Item identifier="revolverround" amount="12" />
+          <Item identifier="roeMagazine9x19Glock">
+            <Item identifier="roeBullet9x19" amount="17" />
+          </Item>
           <Item identifier="divingknife" />
           <Item identifier="antibleeding1" />
           <Item identifier="piratehelmetPA" equip="true" />
@@ -395,10 +404,12 @@
           <Item identifier="pirateclothesnovicePA" equip="true" />
           <Item identifier="piratebandanaPA" equip="true" />
           <Item identifier="screwdriver" equip="true" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" amount="6" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
-          <Item identifier="revolverround" amount="9" />
+          <Item identifier="roeBullet9x19" amount="6" />
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
@@ -421,22 +432,14 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="pirateclothesPA" equip="true" />
           <Item identifier="crowbar" equip="true" />
-          <Item identifier="roeGlock" equip="true">
-            <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-            </Item>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeGlock" equip="true">
-            <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-            </Item>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-          </Item>
-          <Item identifier="roeMagazine9x19Glock">
-            <Item identifier="roeBullet9x19" amout="17"/>
-          </Item>
+          <Item identifier="smgammo" />
+          <Item identifier="smgammo" />
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>

@@ -308,7 +308,7 @@
         <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
       </StatusEffect>
     </Holdable>
-    <RangedWeapon reload="0.14" holdtrigger="true" barrelpos="96,18" spread="8.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.14" holdtrigger="true" barrelpos="96,10" spread="8.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.3,0.3" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />

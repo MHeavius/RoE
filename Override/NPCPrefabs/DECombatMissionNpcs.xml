@@ -68,14 +68,12 @@
           <Item identifier="pirateclothes" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="7" />
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">
@@ -155,22 +153,14 @@
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
           <Item identifier="piratehelmet" equip="true" />
-          <Item identifier="roeGlock" equip="true">
-            <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-            </Item>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeGlock" equip="true">
-            <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-            </Item>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-          </Item>
-          <Item identifier="roeMagazine9x19Glock">
-            <Item identifier="roeBullet9x19" amout="17"/>
-          </Item>
+          <Item identifier="smgammo" />
+          <Item identifier="smgammo" />
           <Item identifier="divingknife" />
           <Item identifier="exosuitPA" equip="true">
             <Item identifier="oxygentank" />
@@ -420,14 +410,12 @@
           <Item identifier="pirateclothes" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="6" />
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">
@@ -663,14 +651,12 @@
           <Item identifier="securityuniform2" equip="true" />
           <Item identifier="idcard" equip="true" tags="id_coalitionsecurity" />
           <Item identifier="headset" equip="true" showpreview="false" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGlock">
+            <Item identifier="roeMagazine9x19Glock">
+              <Item identifier="roeBullet9x19" amount="17" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="4" />
           <Item identifier="handcuffs" equip="false" />
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
@@ -1066,14 +1052,12 @@
           <Item identifier="securityuniform1" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGrach">
+            <Item identifier="roeMagazine9x19Grach">
+              <Item identifier="roeBullet9x19" amount="18" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="6" />
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">

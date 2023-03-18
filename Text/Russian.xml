@@ -104,5 +104,9 @@
 
 <entityname.roeVisor>Забрало Шлема</entityname.roeVisor>
 <entitydescription.roeVisor>Компонент, ожидающий установки на шлем. Предоставляет дополнительную защиту от огнестрельного оружия и укусов множества агрессивно настроенных обитателей Европы. </entitydescription.roeVisor>
+<!-- Talents.xml -->
+
+<talentname.roeTalentKneelingPosition>Мастерство Стрельбы с Колена</talentname.roeTalentKneelingPosition>
+<talentdescription.roeTalentKneelingPosition>При стрельбе из сидячей позиции, вы получаете [spreadreduction]% уменьшения разброса и не будете сбиты с ног отдачей крупнокалиберных орудий.</talentdescription.roeTalentKneelingPosition>
 
 </infotexts>

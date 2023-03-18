@@ -71,14 +71,12 @@
           <Item identifier="pirateclothes" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false"/>
-          <Item identifier="revolver">
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
-            <Item identifier="revolverround" />
+          <Item identifier="roeGrach">
+            <Item identifier="roeMagazine9x19Grach">
+              <Item identifier="roeBullet9x19" amount="18" />
+            </Item>
           </Item>
+          <Item identifier="roeBullet9x19" amount="3" />
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">
@@ -290,17 +288,14 @@
           <Item identifier="securityuniform3" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false"/>
-          <Item identifier="roeGlock" equip="true">
-            <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
-            </Item>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeMagazine9x19Glock">
-              <Item identifier="roeBullet9x19" amout="17"/>
+          <Item identifier="machinepistol" equip="true">
+            <Item identifier="smgammo" />
           </Item>
-          <Item identifier="roeMagazine9x19Glock">
-            <Item identifier="roeBullet9x19" amout="17"/>
-          </Item>
+          <Item identifier="smgammo" />
+          <Item identifier="smgammo" />
           <Item identifier="divingknife" />
           <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">
