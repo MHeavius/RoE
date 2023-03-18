@@ -9,6 +9,24 @@
 <entityname.roeMagazine9x19Glock>Магазин Glock 19</entityname.roeMagazine9x19Glock>
 <entitydescription.roeMagazine9x19Glock></entitydescription.roeMagazine9x19Glock>
 
+<entityname.roeGrach>Пистолет Ярыгина «Грач»</entityname.roeGrach>
+<entitydescription.roeGrach></entitydescription.roeGrach>
+
+<entityname.roeMagazine9x19Grach>Магазин Пистолета Ярыгина</entityname.roeMagazine9x19Grach>
+<entitydescription.roeMagazine9x19Grach></entitydescription.roeMagazine9x19Grach>
+
+<entityname.roeMP5>MP5</entityname.roeMP5>
+<entitydescription.roeMP5></entitydescription.roeMP5>
+
+<entityname.roeMagazine9x19MP5>Магазин MP5</entityname.roeMagazine9x19MP5>
+<entitydescription.roeMagazine9x19MP5></entitydescription.roeMagazine9x19MP5>
+
+<entityname.roePP19>ПП-19-01 «Витязь»</entityname.roePP19>
+<entitydescription.roePP19></entitydescription.roePP19>
+
+<entityname.roeMagazine9x19PP19>Магазин ПП «Витязь» </entityname.roeMagazine9x19PP19>
+<entitydescription.roeMagazine9x19PP19></entitydescription.roeMagazine9x19PP19>
+
 <entityname.roePP19>ПП-19-01 «Витязь»</entityname.roePP19>
 <entitydescription.roePP19></entitydescription.roePP19>
 
@@ -18,8 +36,8 @@
 <entityname.roeBullet9x19>9×19 мм Парабеллум</entityname.roeBullet9x19>
 <entitydescription.roeBullet9x19></entitydescription.roeBullet9x19>
 
-<entityname.roeM4>M4</entityname.roeM4>
-<entitydescription.roeM4></entitydescription.roeM4>
+<entityname.roeM4CQB>M4</entityname.roeM4CQB>
+<entitydescription.roeM4CQB></entitydescription.roeM4CQB>
 
 <entityname.roe556Mag>PMAG 5.56</entityname.roe556Mag>
 <entitydescription.roe556Mag></entitydescription.roe556Mag>

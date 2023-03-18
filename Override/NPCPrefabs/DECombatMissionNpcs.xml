@@ -165,13 +165,13 @@
               <Item identifier="roeBullet9x19" amout="17"/>
             </Item>
           </Item>
-          <Item identifier="divingknife" />
           <Item identifier="roeMagazine9x19Glock">
               <Item identifier="roeBullet9x19" amout="17"/>
           </Item>
           <Item identifier="roeMagazine9x19Glock">
             <Item identifier="roeBullet9x19" amout="17"/>
           </Item>
+          <Item identifier="divingknife" />
           <Item identifier="exosuitPA" equip="true">
             <Item identifier="oxygentank" />
             <Item identifier="fulguriumbatterycell" />

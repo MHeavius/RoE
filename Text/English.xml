@@ -9,6 +9,18 @@
 <entityname.roeMagazine9x19Glock>Glock 19 Magazine</entityname.roeMagazine9x19Glock>
 <entitydescription.roeMagazine9x19Glock></entitydescription.roeMagazine9x19Glock>
 
+<entityname.roeGrach>MP-443 "Grach"</entityname.roeGrach>
+<entitydescription.roeGrach></entitydescription.roeGrach>
+
+<entityname.roeMagazine9x19Grach>MP-443 Magazine</entityname.roeMagazine9x19Grach>
+<entitydescription.roeMagazine9x19Grach></entitydescription.roeMagazine9x19Grach>
+
+<entityname.roeMP5>MP5</entityname.roeMP5>
+<entitydescription.roeMP5></entitydescription.roeMP5>
+
+<entityname.roeMagazine9x19MP5>MP5 Magazine </entityname.roeMagazine9x19MP5>
+<entitydescription.roeMagazine9x19MP5></entitydescription.roeMagazine9x19MP5>
+
 <entityname.roePP19>PP19-01 "Vityaz"</entityname.roePP19>
 <entitydescription.roePP19></entitydescription.roePP19>
 
@@ -18,8 +30,8 @@
 <entityname.roeBullet9x19>9x19mm Parabellum</entityname.roeBullet9x19>
 <entitydescription.roeBullet9x19></entitydescription.roeBullet9x19>
 
-<entityname.roeM4>M4</entityname.roeM4>
-<entitydescription.roeM4></entitydescription.roeM4>
+<entityname.roeM4CQB>M4</entityname.roeM4CQB>
+<entitydescription.roeM4CQB></entitydescription.roeM4CQB>
 
 <entityname.roeMagazine556>PMAG 5.56</entityname.roeMagazine556>
 <entitydescription.roeMagazine556></entitydescription.roeMagazine556>
