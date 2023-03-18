@@ -176,7 +176,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="188,221,178,59" depth="0.55" origin="0.50153804,0.5012908" />
     <Body width="178" height="59" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="44.5,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.12" holdtrigger="true" barrelpos="92,14" spread="12" unskilledspread="20" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.12" holdtrigger="true" barrelpos="92,22" spread="12" unskilledspread="20" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
@@ -239,7 +239,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,11" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
+    <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,21" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
@@ -611,14 +611,14 @@
     <Body width="37" height="13" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
-      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,80" scalemultiplier="1,0.6" />
       <Attack structuredamage="3" targetforce="3.2" itemdamage="4" severlimbsprobability="0.1" penetration="0.05">
         <Affliction identifier="gunshotwound" strength="10.5" />
         <Affliction identifier="bleeding" strength="8.5" />
         <Affliction identifier="stun" strength="0.2" probability="0.1" />
       </Attack>
       <StatusEffect type="OnImpact" target="UseTarget">
-        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,80" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="UseTarget">
         <Conditional entitytype="eq Structure" />
@@ -651,7 +651,7 @@
     <Body width="76" height="13" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
-      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,30" scalemultiplier="1,0.8" />
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,80" scalemultiplier="1,0.8" />
       <Attack structuredamage="4.2" targetforce="4.5" itemdamage="12" severlimbsprobability="0.2" penetration="0.18">
         <Affliction identifier="gunshotwound" strength="24" />
         <Affliction identifier="bleeding" strength="15" />
@@ -659,7 +659,7 @@
         <Affliction identifier="stun" strength="0.4" probability="0.2" />
       </Attack>
       <StatusEffect type="OnImpact" target="UseTarget">
-        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="2,2" colormultiplier="255,200,200,50" />
+        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="2,2" colormultiplier="255,200,200,80" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="UseTarget">
         <Conditional entitytype="eq Structure" />

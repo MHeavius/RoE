@@ -121,7 +121,7 @@
     AnimDuration="3"
     LoopAnim="False">
     <animatedsprite
-      texture="Content/Particles/Smoke.png"
+      texture="%ModDir%/Particles/RoEMuzzleSmoke.png"
       sourcerect="0,0,4096,4096"
       columns="8"
       rows="8"
