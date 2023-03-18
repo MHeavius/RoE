@@ -138,7 +138,7 @@
   StartRotationMin="0"
   StartRotationMax="0"
   RotateToDirection="False"
-  Drag="100"
+  Drag="0"
   WaterDrag="0"
   VelocityChange="0,0"
   VelocityChangeWater="0,0"
@@ -165,6 +165,10 @@
   LoopAnim="False">
   <sprite
     texture="%ModDir%/Particles/RoEMuzzleflash.png"
+    sourcerect="0,0,256,256"
+    origin="0.1,0.5" />
+    <sprite
+    texture="%ModDir%/Particles/RoEMuzzleflash1.png"
     sourcerect="0,0,256,256"
     origin="0.1,0.5" />
 </MuzzleFlashRoE>

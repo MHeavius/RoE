@@ -52,6 +52,7 @@
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
@@ -178,9 +179,9 @@
     <RangedWeapon reload="0.12" holdtrigger="true" barrelpos="92,14" spread="12" unskilledspread="20" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
+      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" /> -->
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
@@ -241,9 +242,9 @@
     <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,11" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
+      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" /> -->
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
@@ -310,9 +311,9 @@
     <RangedWeapon reload="0.14" holdtrigger="true" barrelpos="96,18" spread="8.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
+      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.3,0.3" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" /> -->
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="%ModDir%/Sounds/M4/M4Shot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
       <Sound file="%ModDir%/Sounds/M4/M4Shot (2).ogg" type="OnUse" volume="1.8" range="3000" />
       <Sound file="%ModDir%/Sounds/M4/M4Shot (3).ogg" type="OnUse" volume="1.8" range="3000" />
