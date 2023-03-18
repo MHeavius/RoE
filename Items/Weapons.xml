@@ -47,6 +47,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,60,40" depth="0.55" origin="0.5,0.5" />
     <Body width="60" height="40" density="25" />
     <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.3" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,12" spread="0.8" unskilledspread="8" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
@@ -57,6 +58,7 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
         <Explosion range="100.0" force="1.2" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
@@ -108,11 +110,12 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="70,295,61,42" depth="0.55" origin="0.5,0.5" />
     <Body width="61" height="42" density="25" />
     <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.38" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,12" spread="1.2" unskilledspread="12" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" /> -->
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
@@ -172,6 +175,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="188,221,178,59" depth="0.55" origin="0.50153804,0.5012908" />
     <Body width="178" height="59" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="44.5,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.12" holdtrigger="true" barrelpos="92,14" spread="12" unskilledspread="20" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
@@ -234,6 +238,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,11" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
