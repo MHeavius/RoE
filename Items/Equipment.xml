@@ -1,11 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-
-<!-- LIGHT -->
-
-  <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
-    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.02"/>
-    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.03"/>
+  <!-- LIGHT -->
+  <Item name="" identifier="roeFlashlight" category="Equipment" subcategory="Tactical Equipment" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.02" />
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.03" />
     <Price baseprice="200" minavailable="2">
       <Price storeidentifier="merchantoutpost" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="3" />
@@ -27,14 +26,14 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/items/Icons.png" sourcerect="128,512,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,443,64,17" depth="0.55" origin="0.5,0.6" />
-    <Body width="64" height="17" density="15" />    
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect" >  
+    <Body width="64" height="17" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnActive" targettype="Contained" Condition="-0.2">
         <RequiredItem items="mobilebattery" type="Contained" />
-      </StatusEffect>    
-      <LightComponent LightColor="255,230,180,180" Flicker="0.02" range="1200" powerconsumption="10" allowingameediting="false" >
+      </StatusEffect>
+      <LightComponent LightColor="255,230,180,180" Flicker="0.02" range="1200" powerconsumption="10" allowingameediting="false">
         <LightTexture texture="%ModDir%/Items/roeFlashlight.png" sourcerect="0,0,1024,1024" origin="0.008,0.485" size="1,1" />
-        <IsActive targetcontaineditem="true" condition="gt 1.0"/>
+        <IsActive targetcontaineditem="true" condition="gt 1.0" />
       </LightComponent>
     </Holdable>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
@@ -44,7 +43,6 @@
     </ItemContainer>
     <AiTarget sightrange="3000" />
   </Item>
-
   <!-- <Item name="Tactical Laser" identifier="roeLaser" category="Equipment" subcategory="attachments" Tags="smallitem,tool,provocative" cargocontaineridentifier="metalcrate" Scale="0.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.05"/>
@@ -84,13 +82,11 @@
     </ItemContainer>  
     <AiTarget sightrange="1500" />
   </Item> -->
-
-<!-- CRAFT ITEMS -->
-
+  <!-- CRAFT ITEMS -->
   <Item name="" identifier="roeVisor" category="Material" maxstacksize="1" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
-    <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
+    <PreferredContainer primary="secarmcab" amount="1" notcampaign="true" />
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
-    <PreferredContainer secondary="armcab"/>
+    <PreferredContainer secondary="armcab" />
     <Price baseprice="50" />
     <Deconstruct time="5">
       <Item identifier="plastic" />
@@ -101,11 +97,9 @@
     </Fabricate>
     <Sprite texture="%ModDir%/Items/Equipment.png" sourcerect="233,248,61,117" depth="0.6" origin="0.5,0.5" />
     <Body width="61" height="117" density="25" />
-      <Holdable slots="Any,RightHand,LeftHand" holdangle="10" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="10" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
-
-<!-- STORAGE -->
-
+  <!-- STORAGE -->
   <!-- Базовая игра не выдаёт общих тэгов пулям. Внедрим ящик, когда заменим большую часть боеприпасов на свои -->
   <!-- <Item name="" identifier="roeContainerAmmo" category="Equipment" tags="mediumitem,mobilecontainer,tool" cargocontaineridentifier="" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_metal_heavy" RequireAimToUse="True">
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.05"/>
@@ -142,5 +136,4 @@
     </ItemContainer>
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item> -->
-
 </Items>

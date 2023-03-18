@@ -2,7 +2,7 @@
 
 <!-- HEADPHONES -->
 
-  <Item name="" identifier="roeHeadphones" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeHeadphones" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -23,7 +23,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeBalaclava" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclava" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -47,7 +47,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeBalaclavaGlasses" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaGlasses" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -71,7 +71,7 @@
     </Wearable>
   </Item>
   
-  <Item name="" identifier="roeBalaclavaGoggles" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaGoggles" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -95,7 +95,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeBalaclavaShades" category="Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
+  <Item name="" identifier="roeBalaclavaShades" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,mobileradio" cargocontaineridentifier="metalcrate" scale="0.25">
     <PreferredContainer primary="crewcab" secondary="divingcab"/>
     <Price baseprice="55" />
     <Deconstruct time="10">
@@ -121,7 +121,7 @@
 
 <!-- HELMETS -->
 
-  <Item name="" identifier="roeHelmetFast" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFast" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
@@ -147,7 +147,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeHelmetFastFlashlight" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastFlashlight" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
@@ -178,7 +178,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeHelmetFastVisor" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastVisor" category="Equipment" subcategory="Tactical Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
@@ -203,7 +203,7 @@
     </Wearable>
   </Item>
 
-  <Item name="" identifier="roeHelmetFastDiving" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
+  <Item name="" identifier="roeHelmetFastDiving" category="Equipment" subcategory="Tactical Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy" scale="0.255">
     <PreferredContainer primary="secarmcab" amount="1" notcampaign="true"/>
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.02" />
     <PreferredContainer secondary="armcab"/>
