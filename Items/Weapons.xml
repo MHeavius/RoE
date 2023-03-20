@@ -53,12 +53,9 @@
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (3).ogg" type="OnUse" volume="1.8" range="3000" />
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
@@ -117,12 +114,9 @@
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.2,0.2" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (3).ogg" type="OnUse" volume="1.8" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
         <Explosion range="100.0" force="1.2" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="11.0" />
@@ -182,12 +176,9 @@
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+      <Sound file="%ModDir%/Sounds/Glock/GlockShot (3).ogg" type="OnUse" volume="1.8" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
         <Explosion range="100.0" force="1" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
@@ -245,12 +236,9 @@
       <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.25,0.25" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
       <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
       <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+      <Sound file="%ModDir%/Sounds/Grach/GrachShot (3).ogg" type="OnUse" volume="1.8" range="3000" />
       <StatusEffect type="OnUse">
         <ParticleEmitter particle="ShellsSmall" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
         <Explosion range="100.0" force="1" flash="true" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
