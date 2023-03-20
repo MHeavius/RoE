@@ -229,7 +229,7 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="56,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="46,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,21" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -292,9 +292,9 @@
     <Body width="183" height="63" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="46.5,5" handle1="-27,-18" handle2="37,11" holdangle="-28">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-      <StatusEffect type="OnUse" target="This">
+      <!-- <StatusEffect type="OnUse" target="This">
         <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Holdable>
     <RangedWeapon reload="0.14" holdtrigger="true" barrelpos="96,10" spread="8.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
@@ -321,6 +321,79 @@
       <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
       <SubContainer capacity="1" maxstacksize="1">
         <Containable items="roeFlashlight,flashlight" hide="false" itempos="18,4.5" SetActive="True" />
+      </SubContainer>
+    </ItemContainer>
+    <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="800" powerconsumption="0" allowingameediting="true">
+      <LightTexture texture="%ModDir%/Items/roeLaserLight.png" origin="0.01,0.5" size="1,0.05" depth="0.6" />
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.12" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="Tactical Laser">
+        <StatusEffect Type="OnUse" Target="This" IsOn="True" Stackable="False" />
+        <StatusEffect Type="OnSecondaryUse" Target="This" IsOn="False" Stackable="False" />
+      </TickBox>
+    </CustomInterface>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.1" />
+    </Quality>
+  </Item>
+
+  <Item name="" identifier="roeAKSUCQB" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Weapon" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder" />
+    <Price baseprice="380" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45">
+      <RequiredSkill identifier="weapons" level="65" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="steel" amount="2" />
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="titaniumaluminiumalloy" amount="1" />
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="640,256,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="194,148,186,63" depth="0.55" origin="0.5,0.5" />
+    <Body width="186" height="63" density="25" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="42.5,5" handle1="-24,-17" handle2="41,12" holdangle="-28">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
+      <!-- <StatusEffect type="OnUse" target="This">
+        <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+      </StatusEffect> -->
+    </Holdable>
+    <RangedWeapon reload="0.16" holdtrigger="true" barrelpos="93,4" spread="9.5" unskilledspread="15" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <ParticleEmitter particle="MuzzleFlashRoE" AngleMax="360" ScaleMultiplier="0.3,0.3" ParticlesPerSecond="1" CopyEntityAngle="True" ColorMultiplier="255,255,255,255" />
+      <ParticleEmitter particle="Barrelsmoke" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
+      <ParticleEmitter particle="bubbles" particleamount="1" velocitymin="50" velocitymax="100" scalemultiplier="1,1" copyentityangle="true" colormultiplier="180,180,180,150" />
+      <Sound file="%ModDir%/Sounds/M4/M4Shot (1).ogg" type="OnUse" volume="1.8" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Sounds/M4/M4Shot (2).ogg" type="OnUse" volume="1.8" range="3000" />
+      <Sound file="%ModDir%/Sounds/M4/M4Shot (3).ogg" type="OnUse" volume="1.8" range="3000" />
+      <StatusEffect type="OnUse">
+        <ParticleEmitter particle="Shells" particleamount="1" anglemin="70" anglemax="100" velocitymin="250" velocitymax="280" copyentityangle="true" scalemin="0.8" scalemax="0.8" />
+        <Explosion range="100" force="1" shockwave="false" flash="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="roeBullet545" type="Contained" />
+      <RequiredSkill identifier="weapons" level="50" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" showcontainedstateindicator="false" containedspritedepth="0.56">
+      <Containable items="roeMagazine545" itempos="9,-12.5" />
+      <SlotIcon slotindex="0" texture="%ModDir%/Items/Icons.png" sourcerect="256,512,128,128" origin="0.45,0.5" />
+      <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="roeFlashlight,flashlight" hide="false" itempos="23,3.5" SetActive="True" />
       </SubContainer>
     </ItemContainer>
     <LightComponent LightColor="0,255,0,255" Flicker="0.02" range="800" powerconsumption="0" allowingameediting="true">
@@ -571,7 +644,35 @@
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
-  
+
+  <Item name="" identifier="roeMagazine545" maxstacksize="1" scale="0.5" category="Weapon" subcategory="Ammunition" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultriflemag,magazine" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="roeAKSUCQB" minamount="1" maxamount="1" spawnprobability="1" />
+    <PreferredContainer primary="armcab" secondary="secarmcab" />
+    <Price baseprice="85" sold="false" minleveldifficulty="60" displaynonempty="true">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
+      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="plastic" amount="3" />
+      <RequiredItem identifier="carbon" amount="2" />
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="plastic" amount="2" />
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="165,665,32,50" depth="0.55" origin="0.5,0.5" />
+    <Body width="32" height="50" density="25" />
+    <ItemContainer hideitems="true" capacity="1" maxstacksize="30" containedstateindicatorstyle="bullet">
+      <Containable items="roeBullet545" />
+      <SlotIcon texture="Content/UI/ContainerIndicators.png" sourcerect="1,62,120,29" origin="0.5,0.5" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+
   <!-- AMMO -->
 
   <Item name="" identifier="roeBullet9x19" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,smgammo,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
@@ -656,4 +757,46 @@
       </StatusEffect>
     </Projectile>
   </Item>
+
+  <Item name="" identifier="roeBullet545" maxstacksize="60" category="Weapon" subcategory="Ammunition" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,assaultrifleammo,riflemanbonus,ammo,bullet" impactsoundtag="impact_metal_light" scale="0.17">
+    <PreferredContainer primary="roeMagazine545" amount="30" spawnprobability="1" />
+    <PreferredContainer primary="armcab" secondary="secarmcab" />
+    <Price baseprice="45" minleveldifficulty="45">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" minavailable="10" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="30" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="60" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="60" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" amount="30">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="magnesium" amount="3" />
+      <RequiredItem identifier="lead" amount="2" />
+      <RequiredItem identifier="steel" amount="2" />
+    </Fabricate>
+    <Deconstruct time="2" />
+    <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="384,384,128,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="324,887,81,13" depth="0.55" origin="0.5,0.5" />
+    <Body width="76" height="13" density="30" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,80" scalemultiplier="1,0.8" />
+      <Attack structuredamage="4.4" targetforce="4.8" itemdamage="14" severlimbsprobability="0.2" penetration="0.22">
+        <Affliction identifier="gunshotwound" strength="26" />
+        <Affliction identifier="bleeding" strength="12" />
+        <Affliction identifier="stun" strength="0.3" />
+        <Affliction identifier="stun" strength="0.35" probability="0.2" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="2,2" colormultiplier="255,200,200,80" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+
 </Items>
