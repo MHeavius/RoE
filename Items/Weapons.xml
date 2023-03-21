@@ -292,9 +292,10 @@
     <Body width="183" height="63" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="46.5,5" handle1="-27,-18" handle2="37,11" holdangle="-28">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-      <!-- <StatusEffect type="OnUse" target="This">
+      <StatusEffect type="OnUse" target="This" interval="0.14">
+        <RequiredItem items="bullet" type="Contained" matchonempty="true" />
         <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
-      </StatusEffect> -->
+      </StatusEffect>
     </Holdable>
     <RangedWeapon reload="0.14" holdtrigger="true" barrelpos="96,10" spread="8.5" unskilledspread="18" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
