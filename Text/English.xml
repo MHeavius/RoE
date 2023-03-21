@@ -39,6 +39,15 @@
 <entityname.roeBullet556>5.56x45mm</entityname.roeBullet556>
 <entitydescription.roeBullet556></entitydescription.roeBullet556>
 
+<entityname.roeAKSUCQB>AKS-74U</entityname.roeAKSUCQB>
+<entitydescription.roeAKSUCQB></entitydescription.roeAKSUCQB>
+
+<entityname.roeMagazine545>AK-74 Magazine</entityname.roeMagazine545>
+<entitydescription.roeMagazine545></entitydescription.roeMagazine545>
+
+<entityname.roeBullet545>5.45x39mm</entityname.roeBullet545>
+<entitydescription.roeBullet545></entitydescription.roeBullet545>
+
 <!-- Headgear.xml -->
 
 <entityname.roeHeadphones>Tactical Headphones</entityname.roeHeadphones>

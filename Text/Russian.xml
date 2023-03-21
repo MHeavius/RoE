@@ -45,6 +45,15 @@
 <entityname.roeBullet556>5.56x45 мм</entityname.roeBullet556>
 <entitydescription.roeBullet556></entitydescription.roeBullet556>
 
+<entityname.roeAKSUCQB>АКС-74У</entityname.roeAKSUCQB>
+<entitydescription.roeAKSUCQB></entitydescription.roeAKSUCQB>
+
+<entityname.roeMagazine545>Магазин АК-74</entityname.roeMagazine545>
+<entitydescription.roeMagazine545></entitydescription.roeMagazine545>
+
+<entityname.roeBullet545>5.45х39 мм</entityname.roeBullet545>
+<entitydescription.roeBullet545></entitydescription.roeBullet545>
+
 <!-- Headgear.xml -->
 
 <entityname.roeHeadphones>Активные Наушники</entityname.roeHeadphones>
