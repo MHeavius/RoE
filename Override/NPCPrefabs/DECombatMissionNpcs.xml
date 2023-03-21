@@ -36,6 +36,22 @@
           <Item identifier="shotgunshell" />
           <Item identifier="captainspipe" equip="false" />
         </ItemSet>
+        <ItemSet commonness="0.2">
+          <Item identifier="idcard" equip="true" showpreview="false" />
+          <Item identifier="piratecaptainhat" equip="true" />
+          <Item identifier="pirateclotheshard" equip="true" outfit="true" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
+          </Item>
+          <Item identifier="roeBullet545" amount="10" />
+          <Item identifier="captainspipe" equip="false" />
+        </ItemSet>
       </npc>
       <npc identifier="piratesecurityrecruit" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="0.55" aimspeed="0.8" aimaccuracy="0.3">
         <ItemSet commonness="1">
@@ -139,6 +155,23 @@
           </Item>
           <Item identifier="40mmgrenade" />
           <Item identifier="40mmgrenade" />
+          <Item identifier="divingknife" />
+          <Item identifier="piratebodyarmor" equip="true" />
+          <Item identifier="piratehelmet" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="0.1">
+          <Item identifier="pirateclotheshard" equip="true" />
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeBullet545" amount="10" />
           <Item identifier="divingknife" />
           <Item identifier="piratebodyarmor" equip="true" />
           <Item identifier="piratehelmet" equip="true" />
@@ -360,14 +393,14 @@
           <Item identifier="clownmaskunique" equip="true" />
           <Item identifier="clownsuitunique" equip="true" outfit="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
-          <Item identifier="shotgununique">
-            <Item identifier="shotgunshell" />
-            <Item identifier="shotgunshell" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
           </Item>
-          <Item identifier="shotgunshell" />
-          <Item identifier="shotgunshell" />
-          <Item identifier="shotgunshell" />
-          <Item identifier="shotgunshell" />
+          <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
           <Item identifier="captainspipe" equip="false" />
           <Item identifier="ethanol" />
           <Item identifier="rum" />
@@ -490,6 +523,27 @@
           </Item>
           <Item identifier="40mmgrenade" />
           <Item identifier="40mmgrenade" />
+          <Item identifier="divingknife" />
+          <Item identifier="piratebodyarmor" equip="true" />
+          <Item identifier="clownmask" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="ethanol" />
+          <Item identifier="ethanol" />
+        </ItemSet>
+        <ItemSet commonness="0.2">
+          <Item identifier="pirateclotheshard" equip="true" />
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
+          </Item>
           <Item identifier="divingknife" />
           <Item identifier="piratebodyarmor" equip="true" />
           <Item identifier="clownmask" equip="true" />
@@ -1048,7 +1102,7 @@
         </ItemSet>
       </npc>
       <npc identifier="separatist_securitygunner" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="0.75" aimspeed="0.8" aimaccuracy="0.6">
-        <ItemSet>
+        <ItemSet comonness="1">
           <Item identifier="securityuniform1" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
@@ -1064,20 +1118,27 @@
             <Item identifier="oxygentank" />
           </Item>
         </ItemSet>
-      </npc>
-      <npc identifier="separatist_securitybrute" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="0.9" aimspeed="0.5" aimaccuracy="0.1">
-        <ItemSet commonness="1">
+        <ItemSet comonness="0.1">
           <Item identifier="securityuniform1" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
+          </Item>
           <Item identifier="divingknife" />
-          <Item identifier="piratebodyarmor" equip="true" />
-          <Item identifier="piratebandana" equip="true" />
+          <Item identifier="ballistichelmet2" equip="true" />
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
         </ItemSet>
-        <ItemSet commonness="0.5">
+      </npc>
+      <npc identifier="separatist_securitybrute" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="0.9" aimspeed="0.5" aimaccuracy="0.1">
+        <ItemSet commonness="1">
           <Item identifier="securityuniform1" equip="true" />
           <Item identifier="idcard" equip="true" />
           <Item identifier="headset" equip="true" showpreview="false" />
@@ -1085,6 +1146,25 @@
             <Item identifier="shotgunshell" />
             <Item identifier="shotgunshell" />
             <Item identifier="shotgunshell" />
+          </Item>
+          <Item identifier="divingknife" />
+          <Item identifier="piratebodyarmor" equip="true" />
+          <Item identifier="piratebandana" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="0.2">
+          <Item identifier="securityuniform1" equip="true" />
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
           </Item>
           <Item identifier="divingknife" />
           <Item identifier="piratebodyarmor" equip="true" />
@@ -1126,6 +1206,25 @@
           <Item identifier="divingknife" />
           <Item identifier="piratebodyarmor" equip="true" />
           <Item identifier="piratehelmet" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="0.1">
+          <Item identifier="securityuniform1" equip="true" />
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
+          </Item>
+          <Item identifier="divingknife" />
+          <Item identifier="piratebodyarmor" equip="true" />
+          <Item identifier="piratebandana" equip="true" />
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>

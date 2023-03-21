@@ -46,7 +46,13 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,295,60,40" depth="0.55" origin="0.5,0.5" />
     <Body width="60" height="40" density="25" />
-    <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
+      <StatusEffect type="OnUse" target="This" interval="0.3">
+        <RequiredItem items="bullet" type="Contained" matchonempty="true" />
+        <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+      </StatusEffect>
+    </Holdable>
     <RangedWeapon reload="0.3" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,12" spread="0.8" unskilledspread="8" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -107,7 +113,13 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="70,295,61,42" depth="0.55" origin="0.5,0.5" />
     <Body width="61" height="42" density="25" />
-    <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand,LeftHand" aimpos="70,5" handle1="-22,-8" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
+        <StatusEffect type="OnUse" target="This" interval="0.38">
+          <RequiredItem items="bullet" type="Contained" matchonempty="true" />
+          <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+        </StatusEffect>
+    </Holdable>
     <RangedWeapon reload="0.38" weapondamagemodifier="0.9" penetration="0" holdtrigger="false" barrelpos="24,12" spread="1.2" unskilledspread="12" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -169,7 +181,13 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="512,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="188,221,178,59" depth="0.55" origin="0.50153804,0.5012908" />
     <Body width="178" height="59" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="44.5,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="44.5,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.85" setvalue="true" />
+        <StatusEffect type="OnUse" target="This" interval="0.12">
+          <RequiredItem items="bullet" type="Contained" matchonempty="true" />
+          <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+        </StatusEffect>
+    </Holdable>
     <RangedWeapon reload="0.12" holdtrigger="true" barrelpos="92,22" spread="12" unskilledspread="20" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -229,7 +247,13 @@
     <InventoryIcon texture="%ModDir%/Items/Icons.png" sourcerect="128,256,128,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,221,178,53" depth="0.55" origin="0.5,0.5" />
     <Body width="178" height="53" density="25" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="46,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-10" aimpos="46,-5" handle1="-21,-12" handle2="41,10" holdangle="-35" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.85" setvalue="true" />
+      <StatusEffect type="OnUse" target="This" interval="0.135">
+        <RequiredItem items="bullet" type="Contained" matchonempty="true" />
+        <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+      </StatusEffect>
+      </Holdable>
     <RangedWeapon reload="0.135" holdtrigger="true" barrelpos="89,21" spread="10" unskilledspread="14" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2"> 
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -291,7 +315,7 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="0,148,183,63" depth="0.55" origin="0.5,0.5" />
     <Body width="183" height="63" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="46.5,5" handle1="-27,-18" handle2="37,11" holdangle="-28">
-      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.8" setvalue="true" />
       <StatusEffect type="OnUse" target="This" interval="0.14">
         <RequiredItem items="bullet" type="Contained" matchonempty="true" />
         <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
@@ -365,10 +389,11 @@
     <Sprite texture="%ModDir%/Items/Weapons.png" sourcerect="194,148,186,63" depth="0.55" origin="0.5,0.5" />
     <Body width="186" height="63" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="42.5,5" handle1="-24,-17" handle2="41,12" holdangle="-28">
-      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-      <!-- <StatusEffect type="OnUse" target="This">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.8" setvalue="true" />
+      <StatusEffect type="OnUse" target="This" interval="0.16">
+        <RequiredItem items="bullet" type="Contained" matchonempty="true" />
         <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
-      </StatusEffect> -->
+      </StatusEffect>
     </Holdable>
     <RangedWeapon reload="0.16" holdtrigger="true" barrelpos="93,4" spread="9.5" unskilledspread="15" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
@@ -438,9 +463,10 @@
     <Body width="290" height="72" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-18" aimpos="55,5" handle1="-55,-25" handle2="50,18" holdangle="-28">
         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
-        <StatusEffect type="OnUse" target="This">        
-            <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" />
-        </StatusEffect>
+      <StatusEffect type="OnUse" target="This" interval="0.18">
+        <RequiredItem items="bullet" type="Contained" matchonempty="true" />
+        <Sound file="%ModDir%/Sounds/EmptyGun.ogg" target="NearbyCharacters" range="500" volume="0.6" />
+      </StatusEffect>
     </Holdable>
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
         <sprite texture="%ModDir%/Items/Weapons.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="0,164,290,72" limb="Torso" scale="0.5" origin="0.5,0.8" />

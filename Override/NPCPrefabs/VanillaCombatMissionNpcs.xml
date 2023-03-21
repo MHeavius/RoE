@@ -149,6 +149,25 @@
             <Item identifier="oxygentank" />
           </Item>
         </ItemSet>
+        <ItemSet commonness="0.2">
+          <Item identifier="pirateclotheshard" equip="true" />
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
+          </Item>
+          <Item identifier="divingknife" />
+          <Item identifier="piratebodyarmor" equip="true" />
+          <Item identifier="piratehelmet" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </ItemSet>
       </npc>
       <npc identifier="separatistengineerrecruit" job="engineer" commonness="1" behavior="Patrol" healthmultiplier="0.4" aimspeed="0.8" aimaccuracy="0.3">
         <ItemSet>

@@ -305,7 +305,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs" />
           <Item identifier="roePP19">
             <Item identifier="roeMagazine9x19PP19">
@@ -314,6 +314,29 @@
           </Item>
           <Item identifier="roeMagazine9x19PP19">
               <Item identifier="roeBullet9x19" amount="30"/>
+          </Item>
+          <Item identifier="divingknife" />
+          <Item identifier="piratehelmetPA" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="0.1">
+          <Item identifier="pirateclothesPA" equip="true" />
+          <Item identifier="piratebodyarmorPA" equip="true" />
+          <Item identifier="idcard" equip="true" tags="id_piratesecurity" />
+          <Item identifier="stunbaton">
+            <Item identifier="batterycell" />
+          </Item>
+          <Item identifier="batterycell" amount="2" />
+          <Item identifier="handcuffs" />
+          <Item identifier="roeAKSUCQB">
+            <Item identifier="roeMagazine545">
+              <Item identifier="roeBullet545" amount="30" />
+            </Item>
+          </Item>
+          <Item identifier="roeMagazine545">
+            <Item identifier="roeBullet545" amount="30" />
           </Item>
           <Item identifier="divingknife" />
           <Item identifier="piratehelmetPA" equip="true" />
@@ -334,8 +357,8 @@
           <Item identifier="hmg" equip="true">
             <Item identifier="hmgmagazine" />
           </Item>
-          <Item identifier="hmgmagazine" amount="2" />
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="hmgmagazine" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="stungundart" />
           <Item identifier="stungundart" />
           <Item identifier="divingknife" />
@@ -353,7 +376,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs" />
           <Item identifier="roeGlock">
             <Item identifier="roeMagazine9x19Glock">

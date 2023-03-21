@@ -303,7 +303,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs"/>
           <Item identifier="roeMP5">
             <Item identifier="roeMagazine9x19MP5">
@@ -329,7 +329,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="stungundart"/>
           <Item identifier="stungundart"/>
           <Item identifier="divingknife" />
@@ -347,7 +347,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs"/>
           <Item identifier="roeMP5">
             <Item identifier="roeMagazine9x19MP5">
@@ -398,7 +398,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs"/>
           <Item identifier="roePP19">
             <Item identifier="roeMagazine9x19PP19">
@@ -424,7 +424,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="stungundart"/>
           <Item identifier="stungundart"/>
           <Item identifier="divingknife" />
@@ -442,7 +442,7 @@
           <Item identifier="stunbaton">
             <Item identifier="batterycell" />
           </Item>
-          <Item identifier="batterycell" amount="8" />
+          <Item identifier="batterycell" amount="2" />
           <Item identifier="handcuffs"/>
           <Item identifier="roeGrach">
             <Item identifier="roeMagazine9x19Grach">
